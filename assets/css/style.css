@@ -36,9 +36,35 @@ h2 {
 .sub-heading-color {
     color: var(--highlight-color);
 }
+.fullscreen-carousel {
+    position: relative;
+    width: 100vw; /* Full screen width */
+    height: 100vh; /* Full screen height */
+    z-index:0;
+}
 
+.fullscreen-carousel .carousel-inner {
+    width: 100%;
+    height: 100%;
+}
+
+.fullscreen-carousel .carousel-item img {
+    object-fit: cover; /* Ensure images fill the area */
+    width: 100%;
+    height: 100%;
+}
+
+
+.carousel-control-next {
+    right: 10px;
+}
+.carousel-control-prev {
+    left: 10px;
+}
 .section {
     padding-top: 4rem; /* prevent navbar overlap */
+    margin-top: 50px;
+    width:100%;
 }
 /* Buttons */
 
@@ -67,14 +93,67 @@ h2 {
 /* Navbar */
 
 #navbar {
-    background-color: var(--primary-color);
-    margin-top:50px;
+    background-color: var(--primary-color);  
 }
 
 #navbar .logo {
     width: 30px;
 }
 
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #004aad;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #ebfafe;
+    display: none; /* set to none so that the Nav bar is hidden until users click to open*/
+    top: 100%;
+  
+  
+    
+  }
+  
+  nav a {
+    color: #ebfafe;
+    text-decoration: none;
+    font-size: 110%;
+  }
+  /* Nav toggle */
+  #nav-toggle:checked ~ nav {
+    display: block;
+  }
+  
+  #nav-toggle {
+    display: none;
+  }
+  
+  .nav-toggle-label {
+    font-size: 2rem;
+    color: #ebfafe;
+    margin-right: 0px;
+    margin-left: 10px;
+    
+  
+  
+  
+    align-content:center;
+  }
+  
+
+/* Main content */
+main {
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 20px;
+    /* Enable flex properties for child elements */
+    flex-direction: column;
+    display: flex;
+  }
+ 
+ 
 /* Header */
 
 #header .lead {
@@ -139,7 +218,12 @@ h2 {
 }
 
 /* Footer / contact */
-
+footer { /*Ensure footer is always visible*/
+    min-height:100px;
+    padding: 20px;
+    text-align: center;
+    z-index: 10;
+}
 #contact {
     background-color: var(--primary-color);
     color: white;
@@ -179,11 +263,9 @@ h2 {
 .row {
     border: 2px solid black;
 }
+    /* .container,
 
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
+
 /* General Styling */
 #events {
     background-color: #f9f9f9; /* Light background */
@@ -311,7 +393,7 @@ h2 {
 @media screen and (max-width: 768px) {
  /* Make all service cards the same height for consistency */
  #services.card-body 
- min-height: 100px; 
+ min-height:100px; 
 }
     
 
@@ -328,12 +410,4 @@ h2 {
     /* make all service cards the same height for consistency */
     #services .card-body {
         min-height: 220px;
-    }
-}
-
-/* xxl devices (larger desktops, 1400px and up) */
-@media screen and (min-width: 1400px) {
-    /* make all service cards the same height for consistency */
-    #services .card-body {
-        min-height: 195px;
     }
