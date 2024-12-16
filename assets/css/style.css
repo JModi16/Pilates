@@ -41,6 +41,7 @@ h2 {
     width: 100vw; /* Full screen width */
     height: 100vh; /* Full screen height */
     z-index:0;
+    overflow: visible;
 }
 
 .fullscreen-carousel .carousel-inner {
@@ -60,6 +61,23 @@ h2 {
 }
 .carousel-control-prev {
     left: 10px;
+}
+
+/* Limit carousel height and fit images neatly */ 
+.carousel-inner img { 
+height: 500px;
+object-fit: cover;
+}
+
+/*Adjust spacing between carousel and content */ 
+.carousel-section { 
+margin-bottom: 20px; 
+}
+/* Add spacing below the carousel */
+/* Slightly tighter spacing */  
+.additional-content p {
+ margin-top: 10px; 
+margin-bottom: 20px; 
 }
 .section {
     padding-top: 4rem; /* prevent navbar overlap */
@@ -110,9 +128,7 @@ nav {
     box-shadow: 0 2px 2px #ebfafe;
     display: none; /* set to none so that the Nav bar is hidden until users click to open*/
     top: 100%;
-  
-  
-    
+
   }
   
   nav a {
