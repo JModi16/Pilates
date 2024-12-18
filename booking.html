@@ -60,7 +60,7 @@
                 <h1 class="display-3">Canons Pilates</h1>
                 <p class="my-4">
                     Thank you for choosing to reserve a well deserved and rewarding spot at Canons Pilates! Please
-                    fill out the form below with your details and preferred event. Once you have completed the booking form, 
+                    fill out the form below with your details and preferred class type. Once you have completed the booking form, 
                     you should receive a confirmation message by email.<strong>Please ensure you detail any medical issues you may have and 
                     special requirements you require on the day in the message section of the form,</strong> to ensure our instructor can accomodate you on the day.
                     If required, a member of our team may call you back as soon as possible to ask further questions and discuss further.
@@ -70,45 +70,110 @@
     </header>
 
     <main>
-        <!-- Booking inquiry form section -->
-        <section id="booking-form" class="container section">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-8">
-                    <h2>Booking inquiry</h2>
-                    <form action="success.html" method="GET">
-                        <div class="row">
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="name" class="form-label">Name</label>
-                                <input class="form-control" id="name" name="name" type="text" required>
-                            </div>
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="email" class="form-label">Email</label>
-                                <input class="form-control" id="email" name="email" type="email" required>
-                            </div>
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="phone" class="form-label">Phone number</label>
-                                <input class="form-control" id="phone" name="phone" type="number" required>
-                            </div>
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="event-type" class="form-label">Event type</label>
-                                <select id="event-type" class="form-select" name="event-type" required>
-                                    <option value="" selected>Select</option>
-                                    <option value="group class">Group Class</option>
-                                    <option value="one-to-one">One to One</option>
-                                    <option value="online class">Online Class</option>
-                                    <option value="chair yoga">Chair Yoga</option>
-                                    
-                                </select>
-                            </div>
-                            <div class="col-12 mb-3">
-                                <label for="message" class="form-label">Message</label>
-                                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
-                            </div>
-                        </div>
-
-                        <button type="submit" class="btn btn-custom-outline">Submit</button>
-                    </form>
+        <div class="container">
+            <form action="/action_page.php">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">First Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">Last Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              </div>
+            </div>
+              <div class="col-25">
+                <label for="email" class="form-label">Email</label>
+                <input class="form-control" id="email" name="email" type="email" required>
+            <div class="row">
+                <div class="col-75">
+                    <label for="phone" class="form-label">Phone number</label>
+                    <input class="form-control" id="phone" name="phone" type="number" required>
                 </div>
             </div>
-        </section>
+            <div class="col-12 col-lg-6 mb-3">
+                <label for="event-type" class="class type">Class Type</label>
+                <select id="event-type" class="form-select" name="event-type" required>
+                    <option value="" selected>Select</option>
+                    <option value="group class">Group Class</option>
+                    <option value="one-to-one">One to One</option>
+                    <option value="online class">Online Class</option>
+                    <option value="chair yoga">Chair Yoga</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-12 mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+            </div>
+        </div>
+            <br>
+            <div class="row">
+              <input type="submit" value="Submit">
+            </div>
+            </form>
+        </div>
     </main>
+                        
+    <!-- Footer / contact section -->
+        <!-- mt-auto added to push footer to the bottom of the page -->
+        <footer id="contact" class="mt-auto">
+            <div class="container section">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <h2 class="display-6">Contact us!</h2>
+                    </div>
+                    <!-- Contact info -->
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <h3 class="sub-heading-color">Contact info</h3>
+                        <address>
+                            <strong><i class="fa-solid fa-location-dot"></i> Canons Pilates</strong><br>
+                            Dalkeith Grove<br>
+                            Stanmore, Middlesex, London.
+                        </address>
+                        <p><i class="fa-solid fa-phone"></i> 0208 951 5402<br>
+                            <i class="fa-regular fa-paper-plane"></i> info@canonspilates.co.uk
+                        </p>
+                        <ul id="social-networks">
+                            <li>
+                                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                                    aria-label="Visit our Facebook page (opens in a new tab)">
+                                    <i class="fa-brands fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                                    aria-label="Visit our Twitter page (opens in a new tab)">
+                                    <i class="fa-brands fa-twitter-square"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                                    aria-label="Visit our YouTube page (opens in a new tab)">
+                                    <i class="fa-brands fa-youtube-square"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                                    aria-label="Visit our Instagram page (opens in a new tab)">
+                                    <i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+        </footer>
+        
+       <!-- Bootstrap JS -->
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+       </script>
+
+   <!-- Font Awesome kit -->
+   <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

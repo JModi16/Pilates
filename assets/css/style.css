@@ -193,28 +193,13 @@ header.section {
 #services .card {
     margin-bottom: 1.5rem;
 }
-/* Events */
-
-
-
-#events .table {
-
-    /* events table font size small enough that 
-
-      the table doesn't overflow on xs screens. 
-
-      Size set back to 1rem in a media query 
-
-      for sm screens and up */
-
-    font-size: 0.7rem;
-
-/* Game library cards */
-
-#new-games .card,
-#fav-games .card {
-    border: none;
+/* My Pilates Journey */
+#My Pilates Journey {
+    margin-top:200px;
+    padding:20px;
+    text-align:left
 }
+
 
 /* Footer / contact */
 footer { /*Ensure footer is always visible*/
@@ -308,7 +293,10 @@ footer { /*Ensure footer is always visible*/
     border-radius: 4px; /* Slightly rounded corners */
   }
   
-  
+  #booking-form {
+    margin-top:200px;
+    padding: 100px;
+  }
   /* Book Now and Submit Button */
 .book-now, .submit {
     display: block; /* Makes it easier to center */
@@ -358,6 +346,70 @@ footer { /*Ensure footer is always visible*/
   }
   .display-6 {
     font-size: 20px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
   }
 
 /* Responsive Design */
