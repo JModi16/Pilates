@@ -32,3 +32,55 @@ class="container section">
                                 <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
                             </div>
                         </div>
+                        /*booking form*/
+                        <main>
+                            <div class="container">
+                            <form action="success.html" method="GET">
+                            <div class="row">
+                              <div class="col-25">
+                                <label for="fname">First Name</label>
+                              </div>
+                              <div class="col-75">
+                                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-25">
+                                <label for="lname">Last Name</label>
+                              </div>
+                              <div class="col-75">
+                                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                              </div>
+                            </div>
+                              <div class="col-25">
+                                <label for="email" class="form-label">Email</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            <div class="row">
+                                <div class="col-75">
+                                    <label for="phone" class="form-label">Phone number</label>
+                                    <input class="form-control" id="phone" name="phone" type="number" required>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="event-type" class="class type">Class Type</label>
+                                <select id="event-type" class="form-select" name="event-type" required>
+                                    <option value="" selected>Select</option>
+                                    <option value="group class">Group Class</option>
+                                    <option value="one-to-one">One to One</option>
+                                    <option value="online class">Online Class</option>
+                                    <option value="chair yoga">Chair Yoga</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+                            </div>
+                        </div>
+                            <br>
+                            <div class="row">
+                                <button type="submit" class="btn btn-custom-outline">submit</button>
+                            </form>
+                        </div>
+                        </div>
+                    </main>

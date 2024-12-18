@@ -69,55 +69,62 @@
         </div>
     </header>
        <!-- Booking inquiry form section -->
-    <main>
-            <div class="container">
-            <form action="success.html" method="GET">
-            <div class="row">
-              <div class="col-25">
-                <label for="fname">First Name</label>
-              </div>
-              <div class="col-75">
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-25">
-                <label for="lname">Last Name</label>
-              </div>
-              <div class="col-75">
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-              </div>
-            </div>
-              <div class="col-25">
-                <label for="email" class="form-label">Email</label>
-                <input class="form-control" id="email" name="email" type="email" required>
-            <div class="row">
-                <div class="col-75">
-                    <label for="phone" class="form-label">Phone number</label>
-                    <input class="form-control" id="phone" name="phone" type="number" required>
+       <main>
+        <div class="container">
+            <form action="success.html" method="GET" class="responsive-form">
+                <!-- First Name -->
+                <div class="row align-items-center mb-3">
+                    <label for="fname" class="col-md-4 form-label text-md-end">First Name</label>
+                    <div class="col-md-8">
+                        <input type="text" id="fname" name="firstname" class="form-control" placeholder="Your name.." required>
+                    </div>
                 </div>
-            </div>
-            <div class="col-12 col-lg-6 mb-3">
-                <label for="event-type" class="class type">Class Type</label>
-                <select id="event-type" class="form-select" name="event-type" required>
-                    <option value="" selected>Select</option>
-                    <option value="group class">Group Class</option>
-                    <option value="one-to-one">One to One</option>
-                    <option value="online class">Online Class</option>
-                    <option value="chair yoga">Chair Yoga</option>
-                </select>
-              </div>
-            </div>
-            <div class="col-12 mb-3">
-                <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
-            </div>
-        </div>
-            <br>
-            <div class="row">
-                <button type="submit" class="btn btn-custom-outline">submit</button>
+                <!-- Last Name -->
+                <div class="row align-items-center mb-3">
+                    <label for="lname" class="col-md-4 form-label text-md-end">Last Name</label>
+                    <div class="col-md-8">
+                        <input type="text" id="lname" name="lastname" class="form-control" placeholder="Your last name.." required>
+                    </div>
+                </div>
+                <!-- Email -->
+                <div class="row align-items-center mb-3">
+                    <label for="email" class="col-md-4 form-label text-md-end">Email</label>
+                    <div class="col-md-8">
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Your email.." required>
+                    </div>
+                </div>
+                <!-- Phone -->
+                <div class="row align-items-center mb-3">
+                    <label for="phone" class="col-md-4 form-label text-md-end">Phone Number</label>
+                    <div class="col-md-8">
+                        <input type="tel" id="phone" name="phone" class="form-control" placeholder="Your phone number.." required>
+                    </div>
+                </div>
+                <!-- Class Type -->
+                <div class="row align-items-center mb-3">
+                    <label for="event-type" class="col-md-4 form-label text-md-end">Class Type</label>
+                    <div class="col-md-8">
+                        <select id="event-type" class="form-select" name="event-type" required>
+                            <option value="" selected>Select</option>
+                            <option value="group class">Group Class</option>
+                            <option value="one-to-one">One to One</option>
+                            <option value="online class">Online Class</option>
+                            <option value="chair yoga">Chair Yoga</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- Message -->
+                <div class="row align-items-center mb-3">
+                    <label for="message" class="col-md-4 form-label text-md-end">Message</label>
+                    <div class="col-md-8">
+                        <textarea id="message" name="message" class="form-control" rows="6" placeholder="Your message.." required></textarea>
+                    </div>
+                </div>
+                <!-- Submit Button -->
+                <div class="row justify-content-center">
+                    <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+                </div>
             </form>
-        </div>
         </div>
     </main>
                         
