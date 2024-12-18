@@ -45,8 +45,8 @@
                             <a class="nav-link" href="index.html#contact">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a href="booking.html" class="btn custom-button-filled ms-lg-3">Book now</a>
-                        
+                            <a href="booking.html" class="btn custom-button-outline mb-4">Book Now</a>
+                            
                         </li>
                     </ul>
                 </div>
@@ -70,63 +70,66 @@
     </header>
        <!-- Booking inquiry form section -->
        <main>
-        <div class="container">
-            <form action="success.html" method="GET" class="responsive-form">
-                <!-- First Name -->
-                <div class="row align-items-center mb-3">
-                    <label for="fname" class="col-md-4 form-label text-md-end">First Name</label>
-                    <div class="col-md-8">
-                        <input type="text" id="fname" name="firstname" class="form-control" placeholder="Your name.." required>
+        <main>
+            <div class="container">
+                <div class="form-container p-4 rounded mx-auto style="max-width: 600px;">
+                <form action="success.html" method="GET" class="responsive-form">
+                    <!-- First Name -->
+                    <div class="row align-items-center mb-3">
+                        <label for="fname" class="col-md-4 form-label text-md-end">First Name</label>
+                        <div class="col-md-8">
+                            <input type="text" id="fname" name="firstname" class="form-control" placeholder="Your name.." required>
+                        </div>
                     </div>
-                </div>
-                <!-- Last Name -->
-                <div class="row align-items-center mb-3">
-                    <label for="lname" class="col-md-4 form-label text-md-end">Last Name</label>
-                    <div class="col-md-8">
-                        <input type="text" id="lname" name="lastname" class="form-control" placeholder="Your last name.." required>
+                    <!-- Last Name -->
+                    <div class="row align-items-center mb-3">
+                        <label for="lname" class="col-md-4 form-label text-md-end">Last Name</label>
+                        <div class="col-md-8">
+                            <input type="text" id="lname" name="lastname" class="form-control" placeholder="Your last name.." required>
+                        </div>
                     </div>
-                </div>
-                <!-- Email -->
-                <div class="row align-items-center mb-3">
-                    <label for="email" class="col-md-4 form-label text-md-end">Email</label>
-                    <div class="col-md-8">
-                        <input type="email" id="email" name="email" class="form-control" placeholder="Your email.." required>
+                    <!-- Email -->
+                    <div class="row align-items-center mb-3">
+                        <label for="email" class="col-md-4 form-label text-md-end">Email</label>
+                        <div class="col-md-8">
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Your email.." required>
+                        </div>
                     </div>
-                </div>
-                <!-- Phone -->
-                <div class="row align-items-center mb-3">
-                    <label for="phone" class="col-md-4 form-label text-md-end">Phone Number</label>
-                    <div class="col-md-8">
-                        <input type="tel" id="phone" name="phone" class="form-control" placeholder="Your phone number.." required>
+                    <!-- Phone -->
+                    <div class="row align-items-center mb-3">
+                        <label for="phone" class="col-md-4 form-label text-md-end">Phone Number</label>
+                        <div class="col-md-8">
+                            <input type="tel" id="phone" name="phone" class="form-control" placeholder="Your phone number.." required>
+                        </div>
                     </div>
-                </div>
-                <!-- Class Type -->
-                <div class="row align-items-center mb-3">
-                    <label for="event-type" class="col-md-4 form-label text-md-end">Class Type</label>
-                    <div class="col-md-8">
-                        <select id="event-type" class="form-select" name="event-type" required>
-                            <option value="" selected>Select</option>
-                            <option value="group class">Group Class</option>
-                            <option value="one-to-one">One to One</option>
-                            <option value="online class">Online Class</option>
-                            <option value="chair yoga">Chair Yoga</option>
-                        </select>
+                    <!-- Class Type -->
+                    <div class="row align-items-center mb-3">
+                        <label for="event-type" class="col-md-4 form-label text-md-end">Class Type</label>
+                        <div class="col-md-8">
+                            <select id="event-type" class="form-select" name="event-type" required>
+                                <option value="" selected>Select</option>
+                                <option value="group class">Group Class</option>
+                                <option value="one-to-one">One to One</option>
+                                <option value="online class">Online Class</option>
+                                <option value="chair yoga">Chair Yoga</option>
+                            </select>
+                        </div>
                     </div>
-                </div>
-                <!-- Message -->
-                <div class="row align-items-center mb-3">
-                    <label for="message" class="col-md-4 form-label text-md-end">Message</label>
-                    <div class="col-md-8">
-                        <textarea id="message" name="message" class="form-control" rows="6" placeholder="Your message.." required></textarea>
+                    <!-- Message -->
+                    <div class="row align-items-center mb-3">
+                        <label for="message" class="col-md-4 form-label text-md-end">Message</label>
+                        <div class="col-md-8">
+                            <textarea id="message" name="message" class="form-control" rows="6" placeholder="Your message.." required></textarea>
+                        </div>
                     </div>
-                </div>
-                <!-- Submit Button -->
-                <div class="row justify-content-center">
-                    <button type="submit" class="btn btn-primary btn-sm">Submit</button>
-                </div>
-            </form>
-        </div>
-    </main>
+                    <!-- Submit Button -->
+                    <div class="row justify-content-center">
+                        <button type="submit" class="btn custom-button-filled ms-lg-3 ">Submit</button>
+                    </div>
+                </form>
+            </div>
+            </div>
+        </main>        
                         
     <!-- Footer / contact section -->
         <!-- mt-auto added to push footer to the bottom of the page -->

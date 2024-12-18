@@ -280,25 +280,39 @@ footer { /*Ensure footer is always visible*/
     font-size: 0.9rem; /* Slightly smaller font for table rows */
   }
   
-  /* Discount Note Styling */
-  .discount-note {
-    display: inline-block; /* Allows centering */
-    margin-top: 10px; /* Add spacing above the note */
-    padding: 8px 16px; /* Inner padding for better readability */
-    background-color: #007bff; /* Blue background */
-    border: 1px solid #007bff; /* Blue border */
-    color: white; /* White text */
-    font-size: 0.85rem; /* Small text */
-    font-weight: bold; /* Bold text */
-    text-align: center; /* Center align text */
-    border-radius: 4px; /* Slightly rounded corners */
-  }
-  
+
+  /*booking form styling*/
+
   #booking-form {
     margin-top:200px;
     padding: 100px;
   }
-  /* Book Now and Submit Button */
+  .form-container {
+    background-color: #007bff; /* Light Blue */
+    color:black; /* White text for contrast */
+    max-width: 600px;
+}
+.form-container .form-control,
+.form-container .form-select,
+.form-container textarea {
+    background-color: #fff; /* White input fields */
+    color: #000; /* Black text inside inputs */
+}
+.form-container label {
+    color: black; /* Black colour labels assist users with impaired vision */
+    white-space: nowrap; /* Prevent label text wrapping */
+}
+
+.form-container .btn-primary {
+    background-color: #007bff; /* Brighter blue for the button */
+    border: none;
+}
+.form-container .btn-primary:hover {
+    background-color: DARK BLUE; /* Darker blue on hover */
+    border:none;
+}
+
+  /* Book Now and Submit Button Styling */
 .book-now, .submit {
     display: block; /* Makes it easier to center */
     margin: 15px auto; /* Centers button and adds spacing above */
@@ -312,11 +326,13 @@ footer { /*Ensure footer is always visible*/
     transition: all 0.3s ease; /* Smooth transition effect */
   }
   
-  .book-now, .submit:hover {
+  .book-now, .submit :hover {
     background-color: #007bff; /* Blue background on hover */
     color: white; /* White text on hover */
   }
 
+  /*Custom-Submit button styling*/
+  
 /* Button Styling */
 .btn {
     font-size: 16px;
