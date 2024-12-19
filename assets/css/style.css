@@ -156,79 +156,46 @@ nav {
   }
 
   /*------------------------------------------------FOOTER-----------------------------------------------------*/
-.footer-container {
-    max-width: 1170px;
-    margin: auto;
-  }
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  ul {
-    list-style: none;
-  }
   .footer {
-    background-color: #f8f8f8;
-    padding: 70px 0;
-  }
-  .footer-col {
-    width: 25%;
-    padding: 0 25px;
-  }
-  .footer-col h3 {
-    font-family: "Noto Serif Display", sans-serif;
-    font-size: 18px;
-    color: #051320;
-    text-transform: capitalize;
-    font-weight: 600;
-    position: relative;
-  }
-  /*line styling*/
-  .footer h3::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    background-color: #051320;
-    height: 2px;
-    box-sizing: border-box;
-    width: 50px;
-  }
-  .footer-col a {
-    color: #051320;
-  }
-  .footer-col a:hover {
+    background-color: #343a40; /* Bootstrap dark */
     color: #fff;
+  }
+  .footer h5 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  .footer ul {
+    padding-left: 0;
+    list-style: none; /* Remove bullet points */
+  }
+  .footer ul li a {
+    color: #fff; /* Link color */
     text-decoration: none;
   }
-  .footer-col ul li {
-    font-family: "Noto Serif Display", sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    background-color: #f8f8f8;
+  .footer ul li a:hover {
+    text-decoration: underline; /* Hover effect */
   }
-  .footer-col ul li a:hover {
-    transition: all 0.5s ease 0s;
-    font-weight: 500;
-    padding-left: 8px;
-    color: #144e77
+  .footer .social-links a {
+    font-size: 1.5rem;
+    margin-right: 10px;
   }
-  .footer-col .social-links a {
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
-    text-align: center;
-    margin: 0 10px 10px 0;
-    border-radius: 50%;
-    background-color: #69bce0;
-  }
-  /*social links style change on mouse hover*/
-  .footer-col .social-links a:hover {
-    transition: all 0.3s ease 0s;
-    background-color: #144e77;
+  .footer .btn-outline-light {
+    border-color: #fff; /* Add border for 'Book Now' */
     color: #fff;
+    padding: 0.5rem 1rem;
   }
+  .footer .btn-outline-light:hover {
+    background-color: #fff;
+    color: #343a40; /* Invert colors on hover */
+  }
+  /*Social -Links*/
+  .social-links a {
+    font-size: 1.5rem; /* Ensure icons are visible */
+    color: white; /* Ensure icons have a visible color */
+    margin-right: 10px; /* Add spacing between icons */
+  }
+  
 /* Main content */
 main {
     /* Enlarge main element to push footer down*/
