@@ -154,8 +154,81 @@ nav {
   
     align-content:center;
   }
-  
 
+  /*------------------------------------------------FOOTER-----------------------------------------------------*/
+.footer-container {
+    max-width: 1170px;
+    margin: auto;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul {
+    list-style: none;
+  }
+  .footer {
+    background-color: #f8f8f8;
+    padding: 70px 0;
+  }
+  .footer-col {
+    width: 25%;
+    padding: 0 25px;
+  }
+  .footer-col h3 {
+    font-family: "Noto Serif Display", sans-serif;
+    font-size: 18px;
+    color: #051320;
+    text-transform: capitalize;
+    font-weight: 600;
+    position: relative;
+  }
+  /*line styling*/
+  .footer h3::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    background-color: #051320;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col a {
+    color: #051320;
+  }
+  .footer-col a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  .footer-col ul li {
+    font-family: "Noto Serif Display", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #f8f8f8;
+  }
+  .footer-col ul li a:hover {
+    transition: all 0.5s ease 0s;
+    font-weight: 500;
+    padding-left: 8px;
+    color: #144e77
+  }
+  .footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 10px 10px 0;
+    border-radius: 50%;
+    background-color: #69bce0;
+  }
+  /*social links style change on mouse hover*/
+  .footer-col .social-links a:hover {
+    transition: all 0.3s ease 0s;
+    background-color: #144e77;
+    color: #fff;
+  }
 /* Main content */
 main {
     /* Enlarge main element to push footer down*/
@@ -182,17 +255,7 @@ header.section {
     max-width:1200px;
 }
 
-/* Services */
 
-#services .card-footer {
-    font-weight: bold;
-    color: var(--highlight-color);
-    background-color: transparent;
-}
-
-#services .card {
-    margin-bottom: 1.5rem;
-}
 /* My Pilates Journey */
 #My Pilates Journey {
     margin-top:200px;
@@ -201,51 +264,7 @@ header.section {
 }
 
 
-/* Footer / contact */
-footer { /*Ensure footer is always visible*/
-    min-height:100px;
-    position:relative;
-    bottom:0;
-    width:100%;
-    padding:10px 0;
-    border-top:1px solid #ddd;
-    padding: 20px;
-    text-align: center;
-    z-index: 10;
-}
-#contact {
-    background-color: var(--primary-color);
-    color: white;
-    padding-bottom: 3rem;
-}
 
-#contact h2 {
-    color: white;
-}
-
-#contact .sub-heading-color {
-    color: var(--highlight-color-light);
-}
-
-#contact i {
-    color: var(--secondary-color);
-    font-size: 1.2rem;
-    margin-right: 15px;
-}
-
-#contact .social-links i {
-    color: var(--highlight-color-light);
-    font-size: 1.9rem;
-    transition: color 0.3s ease-in-out;
-}
-
-#contact .social-links i:hover {
-    color: var(--secondary-color);
-}
-#contact .table-dark * {
-
-    background-color: transparent;
-}
 /* grid visualisation CSS for testing */
 
 /* .container,
@@ -440,9 +459,6 @@ footer { /*Ensure footer is always visible*/
         font-size: 1rem;
 
     }
-    .student-discount {
-
-        font-size: 1rem;
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
