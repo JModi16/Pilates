@@ -71,12 +71,13 @@ section#My\ Pilates {
     margin-bottom: 20px;
 }
 .section {
-    padding-top: 4rem; /* prevent navbar overlap */
     margin-top: 50px;
     width:100%;
 }
-section {
-    padding:20px 0;
+
+.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
 }
 /* Buttons */
 
@@ -225,7 +226,8 @@ header.section {
 
 /* My Pilates Journey */
 #My Pilates Journey {
-    margin-top:200px;
+    margin-top:2rem;
+    padding-top:0;
     padding:20px;
     text-align:left
 }
@@ -234,12 +236,11 @@ header.section {
 
 /* grid visualisation CSS for testing */
 
-/* .container,
+.container,
 
 .row {
     border: 2px solid black;
 }
-    /* .container,
 
 
 /* General Styling */
