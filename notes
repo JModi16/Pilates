@@ -144,3 +144,12 @@ class="container section">
                     #services .card {
                         margin-bottom: 1.5rem;
                     }
+
+/* Add spacing below the carousel */
+/* Slightly tighter spacing */  
+.additional-content {
+ margin-top: 10px; 
+margin-bottom: 20px; 
+padding-top: 20px;
+padding-bottom: 20px;
+}

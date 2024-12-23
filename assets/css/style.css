@@ -53,19 +53,8 @@ height: 600px;
 object-fit: cover;
 }
 
-/*Adjust spacing between navbar and carousel*/
-.carousel-section {  
-padding: 10px;
-margin-top: 70px;
-}
-/* Add spacing below the carousel */
-/* Slightly tighter spacing */  
-.additional-content {
- margin-top: 10px; 
-margin-bottom: 20px; 
-padding-top: 20px;
-padding-bottom: 20px;
-}
+
+
 section#My\ Pilates {
     margin-top: 40px;
     margin-bottom: 20px;
@@ -149,11 +138,12 @@ nav {
     color: #ebfafe;
     margin-right: 0px;
     margin-left: 10px;
-    
-  
-  
-  
-    align-content:center;
+  }
+
+  /*Adjust spacing between navbar and carousel*/
+.carousel-section {  
+  padding: 10px;
+  margin-top: 70px;
   }
 
   /*------------------------------------------------FOOTER-----------------------------------------------------*/
@@ -218,9 +208,14 @@ header.section {
     padding-top: 40px;
     margin-bottom:20px;
 }
-
+#header.container {
+  padding-top: 50px;
+  padding-bottom: 50px
+}
 .container {
     max-width:1200px;
+    padding-top: 50px;
+    padding-bottom: 50px
 }
 /*Benefits of practicing pilates */
 
@@ -239,8 +234,8 @@ header.section {
     margin: 5px 0;
 }
 
+/*Pilates circle image*/
 #circle-cover-bg {
-  background: url('../images/reasons-image.jpg') no-repeat top center / cover;
   height: 90vw;
   width: 90vw;
   margin-bottom: 20px;
@@ -249,12 +244,28 @@ header.section {
   max-width: 300px;
   max-height: 300px;
 }
+/*Pilates circle image*/
+
+  #circle-cover-bg {
+    background: url('../images/mat-pilates.jpg') no-repeat center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+  } 
+
+
 
 #benefits-image {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: centre;
+  gap:20px; /* create space between circle images*/
+  flex-wrap:wrap; /*adjust for smaller screens
 }
+
 /* Reasons section */
 #benefits-physical,
 #benefits-mental {
@@ -540,5 +551,3 @@ header.section {
   #benefits-physical > div {
       align-self: flex-end;
   }
-}
-}
