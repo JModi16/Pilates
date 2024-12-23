@@ -17,6 +17,8 @@ body {
     font-family: var(--primary-font);
     margin:0;
     padding:0;
+    padding: top 70px; /* Ensure content does not overlap with fixed navbar */
+
 }
 
 h1,
@@ -72,8 +74,11 @@ section#My\ Pilates {
 
 .custom-button-filled {
     border: 2px solid var(--highlight-color);
-    background-color: var(--highlight-color);
+    background-color: #007bff;
     color: white;
+    padding: 0.5rem 1rem; 
+    border-radius: 20px; /* Rounded corners */
+    font-size: 0.9rem; /* Slightly smaller text */
 }
 
 .custom-button-filled:hover {
@@ -99,7 +104,8 @@ section#My\ Pilates {
 }
 
 #navbar {
-    background-color: var(--primary-color);  
+  padding: 0.5rem 1rem; /* reduced padding to reduce height of navbar*/
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for better visual hierarchy */
 }
 
 #navbar .logo {
@@ -118,6 +124,11 @@ nav {
     top: 100%;
 
   }
+
+  /* Adjust link spacing and alignment */
+.nav-link {
+  padding: 0.5rem; /* Adjust padding */
+
   
   nav a {
     color: #ebfafe;
@@ -139,6 +150,11 @@ nav {
     margin-right: 0px;
     margin-left: 10px;
   }
+ /* Logo customization */
+  .navbar-brand .logo {
+  height: 40px; /* Adjust logo height */
+  width: auto; /* Maintain aspect ratio */
+}
 
   /*Adjust spacing between navbar and carousel*/
 .carousel-section {  
