@@ -51,11 +51,9 @@ h2 {
 
 /* Limit carousel height and fit images neatly */ 
 .carousel-inner img { 
-height: 600px;
-object-fit: cover;
+height: 100%;
+object-fit:cover;
 }
-
-
 
 section#My\ Pilates {
     margin-top: 40px;
