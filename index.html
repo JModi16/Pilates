@@ -28,8 +28,11 @@
 <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
 
 <body class="d-flex flex-column min-vh-100">
-    <!-- Navigation -->
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top" navbar-dark bg-dark">
+
+    <!--Header-->
+     <header id ="header" class="container-fluid">
+         <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark"></nav>
         <div class="container">
             <!--Brand Logo-->
             <a class="navbar-brand d-flex align-items-center" href="index.html">
@@ -61,26 +64,36 @@
                     </ul>
                 </div>
             </div>
-        </nav>          
-       <!-- Header with carousel -->      
+        </nav>  
+        </header>     
+
+       <!-- Carousel Section -->      
 <section class="carousel-section">
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="assets/images/DL Pilates-800x300.jpg" class="d-block w-100"
                             alt="Warrior Twisted Pose!">
+                            <div class="carousel-caption d-none d-md-block">
+                            <h5>Welcome to Pilates</h5>
+                            <p><strong>Transform your body, mind and spirit</strong></p>
+                            <a href="booking.html" class="btn custom-button-outline mb-4">Book now</a>
+                    </div>
                     </div>
                     <div class="carousel-item">
                         <img src="assets/images/crossed-pilates.png" class="d-block w-100"
                             alt="Athletic">
+                            <div class="carousel-caption d-none d-md-block">
                     </div>
                     <div class="carousel-item">
                         <img src="assets/images/mat-pilates.jpg" class="d-block w-100"
                             alt="On your Mat!">
+                            <div class="carousel-caption d-none d-md-block">
                     </div>
                     <div class="carousel-item ">
                         <img src="assets/images/band-pilates.jpg" class="d-block w-100"
                             alt="Use of a band">
+                            <div class="carousel-caption d-none d-md-block">
                     </div>
                 </div>
                 <!--Previous button-->
@@ -105,23 +118,8 @@
         </div>
 </section>
 
-<!-- Header Section -->
-                     
-<header id="header" class="container section py-5">
-    <div class="row">
-        <div class="col-12 col-xl-6 text-center text-xl-start">
-            <h1 class="display-3">Pilates</h1>
-            <p class="lead display-6 sub-heading-color">Transform your Body!</p>
-            <p class="my-3">
-            Welcome to Canons Pilates, the ultimate body conditioning regime which not only lengthens and strengthens muscles but improves flexibility, targets core muscles, and corrects posture.
-            </p>
-            <div class="text-center text-xl-start">
-            <a href="booking.html" class="btn custom-button-outline mb-4">Book now</a>
-            </div>
-        </div>
-    </div>
-    </header>
-
+<!-- Main-Content -->
+    <main>
     <!-- My Pilates journey section -->
      <section id="My Pilates Journey" class="container section py-5">
         <div class="row">
@@ -140,8 +138,8 @@
             </p>
             </div>
         </div>
-    
     </section>
+    </main>
     <section id="reasons">
     <h2>Why Practice Pilates  with us?</h2>
     <div id="benefits">
@@ -212,6 +210,7 @@
                   </address>
                 </div>
             <!-- Social Media -->
+             <div class=""col-md-3">
             <div class="social-links">
               <h5>Follow Us</h5>
                 <a href="https://www.facebook.com/" target="_blank" class="text-white me-3"><i class="fab fa-facebook"></i></a>
@@ -219,7 +218,6 @@
                 <a href="https://www.youtube.com" target="_blank" class="text-white me-3"><i class="fab fa-youtube"></i></a>
                 <a href="https://www.twitter.com" target="_blank" class="text-white"><i class="fab fa-twitter"></i></a>
               </div>
-            </div>
             <!-- Book Now Button -->
             <div class="col-md-2 text-center">
               <a href="booking.html" class="btn btn-outline-light rounded-pill mt-3">Book Now</a>
