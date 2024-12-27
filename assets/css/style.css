@@ -164,7 +164,11 @@ nav {
   .footer {
     background-color: #004aad; /* Navy blue dark */
     color: #fff;
+    border-top:1px soild #444; /*border to provide space from footer to content*/
   }
+    .footer-custom {
+      background-color: #007bff;/*bootstrap primary blue*/
+    }
   .footer h5 {
     border-bottom: 2px solid #fff;
     padding-bottom: 5px;
