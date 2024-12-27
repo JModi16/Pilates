@@ -235,81 +235,77 @@ header.section {
     padding-top: 50px;
     padding-bottom: 50px
 }
-/*Benefits of practicing pilates */
+
+
+
+/*Circle Styling*/
 
 #benefits-physical > div,
 #benefits-mental > div {
-    line-height: 20px;
-    margin-bottom: 20px;
+    line-height: 1.5; /* Adjust for readability */
+    margin-bottom: 20px; /* Keep spacing below */
 }
-
 #benefits p {
-    padding: 0 20px;
+    padding: 0; /* Remove extra padding for better alignment */
+    text-align: center; /* Ensure all text is centered */
 }
-
 #benefits hr {
     border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
+    margin: 10px 0; /* Provide consistent spacing */
 }
-
-/*Pilates circle image*/
-#circle-cover-bg {
-  height: 90vw;
-  width: 90vw;
-  margin-bottom: 20px;
-  /* Makes the square image into a circle */
-  border-radius: 50%;
-  max-width: 300px;
-  max-height: 300px;
-}
-/*Pilates circle image*/
-
-  #circle-cover-bg {
-    background: url('../images/mat-pilates.jpg') no-repeat center / cover;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;
-    /* Makes the square image into a circle */
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-  } 
-
-
-
 #benefits-image {
-  display: flex;
-  justify-content: centre;
-  gap:20px; /* create space between circle images*/
-  flex-wrap:wrap; /*adjust for smaller screens
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between circle images */
+    flex-wrap: wrap; /* Ensure layout adapts to smaller screens */
 }
-
-/* Reasons section */
 #benefits-physical,
 #benefits-mental {
     display: flex;
-    flex-direction: column;
+    flex-direction: row; /* Align content horizontally */
+    justify-content: space-around; /* Space between elements */
     width: 100%;
 }
 #reasons {
-  width: 90%;
-  margin: 20px auto;
+    width: 90%;
+    margin: 20px auto;
 }
-
 #reasons h2 {
-  margin-bottom: 20px;
-  text-align: center;
-  font-size: 280%;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2.8em;
 }
-
-#benefits-physical > div,
-#benefits-mental > div {
-    width: 75%;
+.circle-image {
+    width: 150px; /* Fixed size for circle */
+    height: 150px; /* Fixed size for circle */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image fills the circle */
+    overflow: hidden; /* Hide overflow for perfectly round images */
+    margin: 10px auto; /* Center images *
 }
-
-#benefits-mental > div {
-    text-align: end;
-    align-self: flex-end;
+    .circle-image {
+    width: 200px; /* Adjust circle diameter */
+    height: 200px;
+}
+/* Styling for h3 Headings */
+#benefits h3 {
+  font-size: 1.5em; /* Adjust heading size */
+  font-weight: bold; /* Make the headings bold */
+  text-align: center; /* Center-align the headings */
+  margin-bottom: 10px; /* Add spacing below the heading */
+  color: #333; /* Dark gray color for text */
+}
+/* Icons in Headings */
+#benefits h3 i {
+  margin-left: 5px; /* Add spacing between text and icon */
+  color: #007bff; /* Optional: Add a color to icons */
+  font-size: 1.2em; /* Adjust the size of the icon */
+}
+/* Optional: Adjust h3 headings within each subsection */
+#benefits-physical h3,
+#benefits-mental h3 {
+  font-size: 1.6em; /* Slightly larger font for subsections */
+  margin-top: 15px; /* Space above headings */
 }
 
 /* My Pilates Journey */
