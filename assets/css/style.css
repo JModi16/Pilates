@@ -235,59 +235,61 @@ header.section {
     padding-top: 50px;
     padding-bottom: 50px
 }
-
-
-
 /*Circle Styling*/
 
+
+.rounded-circle 
+{
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover; /* Ensure the image fills the circle */
+}
+/* Layout for Reasons Section */
+#benefits {
+  display: flex; /* Flexbox for horizontal layout */
+  flex-wrap: wrap; /* Wrap to next row on smaller screens */
+  justify-content: space-around; /* Distribute items evenly */
+  align-items: center; /* Center-align items vertically */
+  gap: 20px; /* Space between rows/columns */
+  text-align: center; /* Center-align content within sections */
+}
+#benefits > div {
+  flex: 1; /* Each column takes equal space */
+  min-width: 300px; /* Prevent sections from shrinking too much */
+  max-width: 400px; /* Optional: Prevent sections from growing too wide */
+}
+/* Individual Content Styling */
 #benefits-physical > div,
 #benefits-mental > div {
-    line-height: 1.5; /* Adjust for readability */
-    margin-bottom: 20px; /* Keep spacing below */
+  display: flex;
+  flex-direction: column; /* Stack content (heading, paragraph, image) */
+  align-items: center; /* Center-align within each column */
+  text-align: center; /* Center-align text */
+  gap: 10px; /* Space between elements */
 }
+/* Heading Styling */
+#benefits h3 {
+  font-size: 1.5em; /* Adjust heading size */
+  font-weight: bold;
+  margin: 10px 0; /* Space around heading */
+  color: #333; /* Dark gray text */
+}
+#benefits h3 i {
+  margin-left: 5px;
+  color: #007bff; /* Icon color */
+  font-size: 1.2em;
+}
+/* Paragraph Styling */
 #benefits p {
-    padding: 0; /* Remove extra padding for better alignment */
-    text-align: center; /* Ensure all text is centered */
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 0 10px; /* Space around the text */
+  text-align: center; /* Center the paragraph */
+/* General Image Styling for Responsiveness */
+#benefits img {
+  max-width: 100%; /* Ensures images resize within their container */
+  height: auto; /* Maintains aspect ratio */
 }
-#benefits hr {
-    border-top: 1px solid #3a3a3a;
-    margin: 10px 0; /* Provide consistent spacing */
-}
-#benefits-image {
-    display: flex;
-    justify-content: center;
-    gap: 20px; /* Space between circle images */
-    flex-wrap: wrap; /* Ensure layout adapts to smaller screens */
-}
-#benefits-physical,
-#benefits-mental {
-    display: flex;
-    flex-direction: row; /* Align content horizontally */
-    justify-content: space-around; /* Space between elements */
-    width: 100%;
-}
-#reasons {
-    width: 90%;
-    margin: 20px auto;
-}
-#reasons h2 {
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 2.8em;
-}
-.circle-image {
-    width: 150px; /* Fixed size for circle */
-    height: 150px; /* Fixed size for circle */
-    border-radius: 50%; /* Make the image circular */
-    object-fit: cover; /* Ensure the image fills the circle */
-    overflow: hidden; /* Hide overflow for perfectly round images */
-    margin: 10px auto; /* Center images *
-}
-    .circle-image {
-    width: 200px; /* Adjust circle diameter */
-    height: 200px;
-}
-/* Styling for h3 Headings */
+/* Styling for H3 Headings */
 #benefits h3 {
   font-size: 1.5em; /* Adjust heading size */
   font-weight: bold; /* Make the headings bold */
@@ -301,11 +303,34 @@ header.section {
   color: #007bff; /* Optional: Add a color to icons */
   font-size: 1.2em; /* Adjust the size of the icon */
 }
-/* Optional: Adjust h3 headings within each subsection */
+/* Optional: Adjust H3 Headings for Subsections */
 #benefits-physical h3,
 #benefits-mental h3 {
   font-size: 1.6em; /* Slightly larger font for subsections */
   margin-top: 15px; /* Space above headings */
+}
+/* Reasons Section Styling */
+#benefits {
+  display: flex; /* Enable horizontal layout */
+  flex-wrap: wrap; /* Ensure wrapping on smaller screens */
+  justify-content: space-around; /* Distribute sections evenly */
+  gap: 20px; /* Add spacing between sections */
+  align-items: center; /* Vertically center-align content */
+}
+#benefits > div {
+  flex: 1; /* Equal width for sections */
+  min-width: 300px; /* Prevent sections from shrinking too much */
+  text-align: center; /* Center-align all text inside sections */
+}
+#benefits-physical > div,
+#benefits-mental > div {
+  align-self: center; /* Align all content centrally */
+}
+/* Reasons Section Title */
+#reasons h2 {
+  font-size: 2.8em; /* Adjust heading size */
+  text-align: center; /* Center-align heading */
+  margin-bottom: 20px; /* Add spacing below the heading */
 }
 
 /* My Pilates Journey */
@@ -457,7 +482,7 @@ header.section {
   
   .container {
     border-radius: 5px;
-    background-color: #7a9fc2
+    background-color: #7a9fc2;
     padding: 20px;
   }
   
@@ -522,7 +547,7 @@ header.section {
  /* Make all service cards the same height for consistency */
 @media screen and (max-width: 768px) {
  #services.card-body 
- min-height:100px; 
+ min-height:100px;
 }
     
 
@@ -540,6 +565,8 @@ header.section {
     #services .card-body {
         min-height: 220px;
     }
+
+
     /* Reasons section on Practicing pilates */
     #benefits {
       display: flex;
@@ -557,11 +584,19 @@ header.section {
   #benefits-mental {
       order: 1;
   }
-
-  #benefits-mental > div {
-      align-self: flex-start;
-  }
-
-  #benefits-physical > div {
-      align-self: flex-end;
-  }
+#benefits {
+    display: flex;
+    flex-wrap: wrap; /* Ensure flexibility on smaller screens */
+    gap: 20px; /* Add space between sections */
+}
+#benefits > div {
+    flex: 1; /* Equal width for sections */
+    min-width: 300px; /* Prevent sections from shrinking too small */
+}
+#benefits-mental > div,
+#benefits-physical > div {
+    align-self: center; /* Align all content centrally */
+}
+#benefits-image {
+    order: 0; /* Default position */
+}
