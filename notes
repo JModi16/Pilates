@@ -47,11 +47,13 @@ class="container section">
                             <div class="row">
                               <div class="col-25">
                                 <label for="lname">Last Name</label>
+
                               </div>
                               <div class="col-75">
                                 <input type="text" id="lname" name="lastname" placeholder="Your last name..">
                               </div>
                             </div>
+
                               <div class="col-25">
                                 <label for="email" class="form-label">Email</label>
                                 <input class="form-control" id="email" name="email" type="email" required>
@@ -159,3 +161,41 @@ padding-bottom: 20px;
     <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
     <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+    /* Reasons section on Practicing pilates */
+    #benefits {
+      display: flex;
+      flex-direction: row;
+  }
+
+  #benefits > div {
+      flex: 1;
+  }
+
+  #benefits-image {
+      order: 0
+  }
+
+  #benefits-mental {
+      order: 1;
+  }
+#benefits {
+    display: flex;
+    flex-wrap: wrap; /* Ensure flexibility on smaller screens */
+    gap: 20px; /* Add space between sections */
+}
+#benefits > div {
+    flex: 1; /* Equal width for sections */
+    min-width: 300px; /* Prevent sections from shrinking too small */
+}
+#benefits-mental > div,
+#benefits-physical > div {
+    align-self: center; /* Align all content centrally */
+}
+#benefits-image {
+    order: 0; /* Default position */
+}
+
+-primary-font: "Inter", sans-serif;
+    --secondary-font: "Macondo", cursive;
+    ('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');

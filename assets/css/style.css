@@ -4,7 +4,7 @@
 /* CSS Variables */
 :root {
     --primary-font: "Inter", sans-serif;
-    --secondary-font: "Macondo", cursive;
+    --secondary-font:"Macondo", cursive;
     --primary-color: #3a2620; /* dark brown */
     --secondary-color: #aa9581; /* light brown */
     --highlight-color: #416a8e; /* blue */
@@ -567,36 +567,4 @@ header.section {
     }
 
 
-    /* Reasons section on Practicing pilates */
-    #benefits {
-      display: flex;
-      flex-direction: row;
-  }
-
-  #benefits > div {
-      flex: 1;
-  }
-
-  #benefits-image {
-      order: 0
-  }
-
-  #benefits-mental {
-      order: 1;
-  }
-#benefits {
-    display: flex;
-    flex-wrap: wrap; /* Ensure flexibility on smaller screens */
-    gap: 20px; /* Add space between sections */
-}
-#benefits > div {
-    flex: 1; /* Equal width for sections */
-    min-width: 300px; /* Prevent sections from shrinking too small */
-}
-#benefits-mental > div,
-#benefits-physical > div {
-    align-self: center; /* Align all content centrally */
-}
-#benefits-image {
-    order: 0; /* Default position */
-}
+    
