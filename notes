@@ -199,3 +199,90 @@ padding-bottom: 20px;
 -primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
     ('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
+
+
+    /*Old benefits id <selector></selector>
+
+    /* Layout for Reasons Section */
+#benefits {
+  display: flex; /* Flexbox for horizontal layout */
+  flex-wrap: wrap; /* Wrap to next row on smaller screens */
+  justify-content: space-around; /* Distribute items evenly */
+  align-items: center; /* Center-align items vertically */
+  gap: 20px; /* Space between rows/columns */
+  text-align: center; /* Center-align content within sections */
+}
+#benefits > div {
+  flex: 1; /* Each column takes equal space */
+  min-width: 300px; /* Prevent sections from shrinking too much */
+  max-width: 400px; /* Optional: Prevent sections from growing too wide */
+}
+/* Individual Content Styling */
+#benefits-physical > div,
+#benefits-mental > div {
+  display: flex;
+  flex-direction: column; /* Stack content (heading, paragraph, image) */
+  align-items: center; /* Center-align within each column */
+  text-align: center; /* Center-align text */
+  gap: 10px; /* Space between elements */
+}
+/* Heading Styling */
+#benefits h3 {
+  font-size: 1.5em; /* Adjust heading size */
+  font-weight: bold;
+  margin: 10px 0; /* Space around heading */
+  color: #333; /* Dark gray text */
+}
+#benefits h3 i {
+  margin-left: 5px;
+  color: #007bff; /* Icon color */
+  font-size: 1.2em;
+}
+/* Paragraph Styling */
+#benefits p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 0 10px; /* Space around the text */
+  text-align: center; /* Center the paragraph */
+/* General Image Styling for Responsiveness */
+#benefits img {
+  max-width: 100%; /* Ensures images resize within their container */
+  height: auto; /* Maintains aspect ratio */
+}
+/* Styling for H3 Headings */
+#benefits h3 {
+  font-size: 1.5em; /* Adjust heading size */
+  font-weight: bold; /* Make the headings bold */
+  text-align: center; /* Center-align the headings */
+  margin-bottom: 10px; /* Add spacing below the heading */
+  color: #333; /* Dark gray color for text */
+}
+/* Icons in Headings */
+#benefits h3 i {
+  margin-left: 5px; /* Add spacing between text and icon */
+  color: #007bff; /* Optional: Add a color to icons */
+  font-size: 1.2em; /* Adjust the size of the icon */
+}
+/* Optional: Adjust H3 Headings for Subsections */
+#benefits-physical h3,
+#benefits-mental h3 {
+  font-size: 1.6em; /* Slightly larger font for subsections */
+  margin-top: 15px; /* Space above headings */
+}
+/* Reasons Section Styling */
+#benefits {
+  display: flex; /* Enable horizontal layout */
+  flex-wrap: wrap; /* Ensure wrapping on smaller screens */
+  justify-content: space-around; /* Distribute sections evenly */
+  gap: 20px; /* Add spacing between sections */
+  align-items: center; /* Vertically center-align content */
+}
+#benefits > div {
+  flex: 1; /* Equal width for sections */
+  min-width: 300px; /* Prevent sections from shrinking too much */
+  text-align: center; /* Center-align all text inside sections */
+}
+#benefits-physical > div,
+#benefits-mental > div {
+  align-self: center; /* Align all content centrally */
+}
