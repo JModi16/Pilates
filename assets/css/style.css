@@ -17,8 +17,7 @@ body {
     font-family: var(--primary-font);
     margin:0;
     padding:0;
-    padding: top 70px; /* Ensure content does not overlap with fixed navbar */
-
+    padding-top:70px; /* Ensure content does not overlap with fixed navbar */
 }
 
 h1,
@@ -431,52 +430,39 @@ header.section {
     clear: both;
   }
   /*Contact Us Section*/
-  .contact-address, .contact-details {
-    margin: 50px auto;
+
+  body {
+    font-family:Verdana, sans-serif;
+    
+    margin: 0;
+    
+    padding-top:50px;    /*Create spacing between navbar and contact headings */
   }
-  
-  .contact-details a {
-    color: #051320;
+ 
+  .section-heading {
+    font-family: Verdana, sans-serif; /* Use Verdana for headings */
+    font-weight:bold;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom:0.5rem;
   }
-  
-  .contact-details a:hover { 
-    color: #144e77;
-    font-weight: 500;
+  /* Contact Links */
+  .contact-link {
+    margin-top: 0;
+    color: #0056b3; /* blue text color for links */
+    text-decoration: none; /* Remove underline from links */
+    display: block;
   }
-  
-  .contact-address h2,
-  .contact-details h2 {
-    font-size: 23px;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #051320;
+  .contact-link:hover {
+    color: #0056b3; /*Add hover effect for links */
+    text-decoration: none;
   }
-  
-  .contact-address ul li {
-    font-size: 18px;
-    line-height: 1.5;
-    font-weight: 400;
-    color: #051320;
-  }
-  
-  .contact-details p {
-    font-size: 18px;
-    line-height: 1.5;
-    font-weight: 300;
-    color: #051320;
-  }
-  #locator { 
-    border: 4px solid #144e77;
-    border-radius: 15px;
-    padding: 10px;
-    margin: auto auto;
-    height: fit-content;
-  }
-  
-  /*google map*/
-  iframe { 
-    width: 100%;
-    height: 100rem;
+  /* Map Styling */
+  .google-map {
+    width: 100%; /* Make the map fit its column */
+    height: 200px; /* Set map height */
+    border: 2px solid #ccc; /* Add a border to the map */
+    border-radius: 5px; /* Add rounded corners to the map */
   }
   
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
