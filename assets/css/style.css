@@ -94,7 +94,7 @@ section#My\ Pilates {
     background-color: var(--highlight-color);
     color: white
 }
-/* Navbar */
+/* Navbar Section */
 
 .nav {
     margin-bottom: 50px;
@@ -162,7 +162,7 @@ nav {
   /*------------------------------------------------FOOTER-----------------------------------------------------*/
   .footer {
     background-color: #004aad; /* Navy blue dark */
-    color: #fff;
+    color: #004aad;
     border-top:1px soild #444; /*border to provide space from footer to content*/
   }
     .footer-custom {
@@ -339,8 +339,8 @@ header.section {
     margin: 15px auto; /* Centers button and adds spacing above */
     padding: 8px 16px; /* Adjust padding */
     border: 2px solid #007bff; /* Blue border */
-    background-color: white; /* White background */
-    color: #007bff; /* Blue text */
+    background-color: #0056b3; /* Dark Blue background */
+    color: #0056b3; /* Blue text */
     font-size: 0.85rem; /* Slightly smaller font */
     border-radius: 4px; /* Rounded corners */
     cursor: pointer; /* Pointer cursor on hover */
