@@ -182,6 +182,28 @@ A error 404 page was created in the event that the page failed to load due to a 
 * Visual Studio code was the IDE used and within this Git was used for version control by utilizing the terminal to commit changes and Push to GitHub. [VScode:](documentation/gitdemo.jpeg)
 * Balsamiq was used to create the wireframes to support in the design process.[Balsamiq:](https://balsamiq.com/)
 
+## Deployment
+-   ### Deployment
+
+Github was used as version control. Visual studio code was the IDE used to build the website, code was added and commited in the terminal and then pushed to Github.
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
+
+To deploy this page to GitHub Pages from its , the following steps were taken: 
+1. Open Code Institute workspace [Code Institute Workspace](https://codeinstitute-ide.net/workspaces)
+2. Open the project repository [GitHub repository:](https://github.com/JModi16/Pilates)
+3. From the menu items near the top of the page, select **Settings**.
+   
+![Deployment:](documentation/deployment.png)
+
+5. Click on "Pages" in the left hand navigation panel.
+6. Under "Source", choose which branch to deploy. This should be Main for newer repositories
+7. Choose which folder to deploy from, usually "/root".
+8. Click "Save", then wait for it to be deployed. 
+It can take some time for the page to be fully deployed.
+9. Your URL will be displayed above "Source"
+
+
+
 
 
  
