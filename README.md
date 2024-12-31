@@ -38,15 +38,16 @@ The website created for them is a four-page website enabling students and potent
 *[HTML] (https://getbootstrap.com/docs/5.3/getting-started/introduction/) and (https://www.w3schools.com/bootstrap/bootstrap_get_started.asp)
 *[CSS3] and (https://getbootstrap.com/docs/3.4/css/) and (https://www.w3schools.com/css/default.asp)
 
-#### **UserStories**
-<br/>**####First Time Visitor Goals**  
+### **User Stories**
+
+#### **First Time Visitor Goals**  
 <br/>1.As a first-time visitor, I would understand what Pilates is about  
 2.As a first-time visitor, I need to know the the postures involved in Pilates  
 3\. As a first-time visitor, I need to see images of the postures and asanas which take place in different classes. The site needs to be visually appealing with catchy images.  
 4\. As a first time visitor I need to easily view information on type of classes, days, times, location and prices.  
 5\. As a first time visitor I need to be able to book a class.  
 6\. As a first time visitor, I need to check social-media links, so I can join and keep up to date with events, offers and classes available.  
-<br/>\### Regular Pilates students  
+#### **Regular Pilates students**
 <br/>1\. As a regular visitor, I want to find information on different types of classes offered  
 2\. As a regular visitor, I need to find information on different type of classes which maybe on offer to suit my personal requirements.  
 3\. As a regular visitor, I need to find information on existing classes which may be additional offered during the week.  
@@ -63,7 +64,7 @@ INFORMATION TO FOLLOW
  
 The structure of the site is informed by the scope, user and business goals as well as the principles of IXD (interaction design) to make sure I was conforming to user’s expectations and making everything as intuitive as I could. 
  
-The site has a simple structure made up of 3 page links from the Navigation bar: 
+The site has a simple structure made up of 4 page links from the Navigation bar: 
 * Homepage – A  Carousel with four images of pilates classes 
 * Classes - more detailed information about the type of classes for students. 
 * Book Us - information about booking the band and a booking enquiry form. 
@@ -91,16 +92,16 @@ I used the Inter Sans-Serif as the primary font and Mocando Cursive as the Secon
   ### **Features**
 
   
-   -   #### Home Page 
+### **Home Page** 
  
-    -   ### Navigation Bar 
+ #### **Navigation Bar**
         * The responsive navigation bar has been applied to all three pages so that the pages are uniform, which is more visually appealing and improves user experience. It is also 'sticky' so that it is visible at all times no matter where the user is on the webpage. The navigation bar includes clear links to the Home, Classes, Contact Us and Book Now pages. 
         *The navigation section promotes ease of use for the user, allowing the user to move easily between sections and pages. There is a striking image on the homepage to attract the attention of the user. Athlete image, which is compact displays a typical althlete performing a superb pilates asana.It is in a circular format, with Pilates labelled twice around the image. 
  
        ![Navigation Bar](documentation/navigation-bar.png) 
-
-        
-        *The Carousel is found at the top of the home page, below the navigation bar.It is autoplaying and also gives the user the option to navigate back and forth with clear indicators on the left and right of the carousel section. Carousel consists of four large images underneath the Navigation bar . Please see first image below. The remaining images you can see from the site when you navigate across and allow the carousel to autoplay.   
+	
+#### **Carousel Section**
+	*The Carousel is found at the top of the home page, below the navigation bar.It is autoplaying and also gives the user the option to navigate back and forth with clear indicators on the left and right of the carousel section. Carousel consists of four large images underneath the Navigation bar . Please see first image below. The remaining images you can see from the site when you navigate across and allow the carousel to autoplay.   
 
         ![Carousel Section](documentation/carousel.png)
 
@@ -112,7 +113,7 @@ I used the Inter Sans-Serif as the primary font and Mocando Cursive as the Secon
        
        ![My Story section](documentation/my-story.png)
 
-    -   #### Classes Page 
+    #### Classes Page 
         * This page will allow the user to see exactly what type of classes are available to book. Images are paired with the classes information to show the user what the classes may look like. 
         * This page will be updated with any new classes which maybe introduced 
         * The page also details a table, with information on group and chair pilates classes which are the most popular by demand. It shows the event against each day, time, price and location. 
