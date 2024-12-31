@@ -152,9 +152,58 @@ All fields need to be completed, including the ‘Message, otherwise they will b
 * The footer contains a 'Contact Information' section with address and phone number and email address. Phone number is clickable and enables user to make a direct phone from a mobile device, with call with the phone number displayed. The Email address is clickable which opens up in a new tab. If the users mail is configured correctly, it will allow the user to compose a message and the correct mail address will be populated automatically in the recipients input field. 
 
 * The footer consists of four links to social-media navigation page sites, within the 'Follow Us' heading. links to four social media sites.All social media links open in seperate new browser window, enabling the user to remain on the site page. 
-* The footer is valuable to the user as it encourages them to keep connected via social media and gives easy access to interesting information about what is happening at Canons Pilates. 
+* The footer is valuable to the he user back to the user encouraging them to keep connected via social media and gives easy access to interesting information about what is happening at Canons Pilates. 
     
 ![Footer Section](documentation/footer.png)
+
+- #### Error 404 page
+A error 404 page was created in the event that the page failed to load due to a broken link, page removed, connectivity issue. Once the error 404 is loaded, it enables them to navigate back to the home page.
+
+### **Features For The Future**
+* In the future a 'Book Online' feature will be implemented and marketed encouraging student users to directly book their Pilates classes online rather than sending a booking enquiry by email  or needing to speak to a member of the Pilates team. This should improve user experience as they can more efficiently book classes.
+* We would like the Booking system within the Book-Now page to alert the users should classes be full and show availability for next classes, within an integrated calendar based system.
+* We would also like a payment system implemented on the booking-now system, enabling the user to enter card details and system connected to an online payment merchant. Currently, payment is made when arriving at the Pilates centre.
+
+* We hope to have a mobile app on the Apple store and google play store to be downloaded very soon, enabling efficient booking and availability.
+* FAQ page- this would be beneficial to the customer to view answers to commonly asked questions for more insight into our Pilates.
+
+## Technologies Used
+
+-   ### Frameworks, Libraries & Programs Used
+
+* Code Institue Learning Management Tool. This is the important learning management system to assist me with this project enabling me to learn HTML and CSS [Code Institute](https://learn.codeinstitute.net/courses/course-v1:code_institute+DIWAD_MS1+1/courseware/5cc55f6df9fe41cc8dcb4d665a251ded/8341150079674a76b87da0143c45f6f9/)
+* W3Schools html tutorials very useful for code example(https://www.w3schools.com/html/default.asp)
+* W3Schools css tutorials very useful for code examples(https://www.w3schools.com/css/default.asp)
+* W3Schools bootstrap  tutorials very useful to create bootstrap responsive framework mobile and websites [https://www.w3schools.com/bootstrap5/index.php]
+* GitHub is used to store the projects code after being pushed from Git.[GitHub:](https://github.com/)
+* Gitpod- An automated and IDE tool enabling to write, debug and run code [https://www.gitpod.io/]
+* Google fonts  used to import the 'Noto Sans Serif' font into the style.css file which is used on all pages throughout the project. [Google Fonts:](https://fonts.google.com/)
+* Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes[Font Awesome:]( https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css)
+* Visual Studio code was the IDE used and within this Git was used for version control by utilizing the terminal to commit changes and Push to GitHub. [VScode:](documentation/gitdemo.jpeg)
+* Balsamiq was used to create the wireframes to support in the design process.[Balsamiq:](https://balsamiq.com/)
+
+## Deployment
+-   ### Deployment
+
+Github was used as version control. Visual studio code was the IDE used to build the website, code was added and commited in the terminal and then pushed to Github.
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
+
+To deploy this page to GitHub Pages from its , the following steps were taken: 
+1. Open Code Institute workspace [Code Institute Workspace](https://codeinstitute-ide.net/workspaces)
+2. Open the project repository [GitHub repository:](https://github.com/JModi16/Pilates)
+3. From the menu items near the top of the page, select **Settings**.
+   
+![Deployment:](documentation/deployment.png)
+
+5. Click on "Pages" in the left hand navigation panel.
+6. Under "Source", choose which branch to deploy. This should be Main for newer repositories
+7. Choose which folder to deploy from, usually "/root".
+8. Click "Save", then wait for it to be deployed. 
+It can take some time for the page to be fully deployed.
+9. Your URL will be displayed above "Source"
+
+
+
 
 
  
