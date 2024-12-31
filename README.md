@@ -81,7 +81,7 @@ To Follow !
  
 
 
-#### **Fonts** 
+### **Fonts** 
 
 I imported [Google Fonts]  with the google fonts imported link on each page ('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap') 
 
@@ -89,76 +89,72 @@ I used the Inter Sans-Serif as the primary font and Mocando Cursive as the Secon
 
  
 
-  ### **Features**
+## **Features**
 
   
-### **Home Page** 
+## **Home Page** 
  
- #### **Navigation Bar**
-        * The responsive navigation bar has been applied to all three pages so that the pages are uniform, which is more visually appealing and improves user experience. It is also 'sticky' so that it is visible at all times no matter where the user is on the webpage. The navigation bar includes clear links to the Home, Classes, Contact Us and Book Now pages. 
-        *The navigation section promotes ease of use for the user, allowing the user to move easily between sections and pages. There is a striking image on the homepage to attract the attention of the user. Athlete image, which is compact displays a typical althlete performing a superb pilates asana.It is in a circular format, with Pilates labelled twice around the image. 
+### **Navigation Bar**
+
+* The site has a navbar which remains fixed to the top of the page on desktop, tablet and mobile i this allows a user to access any page they need at any time and would be suitable for a returning visitor who knows exactly where they want to go. There is also a footer on every page with quick links to all pages,  the company pilates social media sites used and a booking button
+* The responsive navigation bar has been applied to all three pages so that the pages are uniform, which is more visually appealing and improves user experience. It is also 'sticky' so that it is visible at all times no matter where the user is on the webpage. The navigation bar includes clear links to the Home, Classes, Contact Us and Book Now pages. 
+*The navigation section promotes ease of use for the user, allowing the user to move easily between sections and pages. There is a striking image on the homepage to attract the attention of the user. Athlete image, which is compact displays a typical althlete performing a superb pilates asana.It is in a circular format, with Pilates labelled twice around the image. 
  
-       ![Navigation Bar](documentation/navigation-bar.png) 
+![Navigation Bar](documentation/navigation-bar.png) 
 	
-#### **Carousel Section**
-	*The Carousel is found at the top of the home page, below the navigation bar.It is autoplaying and also gives the user the option to navigate back and forth with clear indicators on the left and right of the carousel section. Carousel consists of four large images underneath the Navigation bar . Please see first image below. The remaining images you can see from the site when you navigate across and allow the carousel to autoplay.   
 
-        ![Carousel Section](documentation/carousel.png)
+*The Carousel is found at the top of the home page, below the navigation bar.It is autoplaying and also gives the user the option to navigate back and forth with clear indicators on the left and right of the carousel section. Carousel consists of four large images underneath the Navigation bar . Please see first image below. The remaining images you can see from the site when you navigate across and allow the carousel to autoplay.   
 
-        * The second section will enable the user with the benefits of practicing pilates with the organization with three circular images and content on top. The content has three styled beneficial headings; Feel Movement, Feel Balanced and Feel Relaxed.See below:
+![Carousel Section](documentation/carousel.png)
 
-        ![Reasons section](documentation/reasons.png)
+* The second section will enable the user with the benefits of practicing pilates with the organization with three circular images and content on top. The content has three styled beneficial headings; Feel Movement, Feel Balanced and Feel Relaxed.See below:
 
-        * The last section is the 'My Pilates Journey' section headed 'My Story;. It describes my personal journey and the reasons why I chose the Pilates theme close to my heart
+![Reasons section](documentation/reasons.png)
+
+* The last section is the 'My Pilates Journey' section headed 'My Story;. It describes my personal journey and the reasons why I chose the Pilates theme close to my heart
        
-       ![My Story section](documentation/my-story.png)
+![My Story section](documentation/my-story.png)
 
-    #### Classes Page 
-        * This page will allow the user to see exactly what type of classes are available to book. Images are paired with the classes information to show the user what the classes may look like. 
-        * This page will be updated with any new classes which maybe introduced 
-        * The page also details a table, with information on group and chair pilates classes which are the most popular by demand. It shows the event against each day, time, price and location. 
- 
-
-        ![Classes Page](documentation/typeofclasses.png)
- 
-    -    #### Contact Us Page 
-         * The information will provide Address, phone number and email address. It will we identical to the information on the Contact section in the footer. The Contact link is also accessible from the Quick Links section. 
- 
-         ![Contact Section](documentation/contact_section.jpeg)- Need to capture and upload image ! 
-
+## **Classes Page**
+ * This page will allow the user to see exactly what type of classes are available to book. Images are paired with the classes information to show the user what the classes may look like. 
+ * This page will be updated with any new classes which maybe introduced 
+ * The page also details a table, with information on group and chair pilates classes which are the most popular by demand. It shows the event against each day, time, price and location. 
  
 
+![Classes Page](documentation/typeofclasses.png)
  
+## **Contact Us Page** 
+ * The information will provide Address, phone number and email address. It will we identical to the information on the Contact section in the footer. The Contact link is also accessible from the Quick Links section. 
  
+![Contact Section](documentation/contact_section.jpeg)- Need to capture and upload image ! 
  
-    -    #### Booking Page 
-         * This page will allow the user to book a class.  
-         * The user will be asked to submit their first name, surname, email address and telephone number , the date from the calendar and select a class type from the drop down menu. Four options are currently available to be selected. The user will have the option to provide further information within the booking form. Before completing the form, there is a small paragraph which details information before completing the form.
+## **Booking Page**
+* This page will allow the user to book a class.  
+* The user will be asked to submit their first name, surname, email address and telephone number , the date from the calendar and select a class type from the drop down menu. Four options are currently available to be selected. The user will have the option to provide further information within the booking form. Before completing the form, there is a small paragraph which details information before completing the form.
 
-         See below:
-         ![Book Now Section](documentation/booking-form.png)
+See below:
+![Book Now Section](documentation/booking-form.png)
          
-          All fields need to be completed, including the ‘Message, otherwise they will be presented with the following. See screenshot image below;
+All fields need to be completed, including the ‘Message, otherwise they will be presented with the following. See screenshot image below;
 
-         ![Book Now Section](documentation/incomplete-booking.png)
+![Book Now Section](documentation/incomplete-booking.png)
 
-         *  The booking tool allows you to use a password manager tool, which automatically prompts youwith a pop=up box to auto-fill your saved details requested. (Except the booking date, class type and message information). See screenshot below:
+*  The booking tool allows you to use a password manager tool, which automatically prompts youwith a pop=up box to auto-fill your saved details requested. (Except the booking date, class type and message information). See screenshot below:
 
-         ![Book Now Section](documentation/bookingform.png)
+![Book Now Section](documentation/bookingform.png)
 
-         *  Once, the class has been book the user receives a thank-you confirmation pop up window. This also enables the user to click pack to the home page,via a click of a button. See screenshot below.
+*  Once, the class has been book the user receives a thank-you confirmation pop up window. This also enables the user to click pack to the home page,via a click of a button. See screenshot below.
 
-         ![Book Now Section](documentation/thank-you.png)
+![Book Now Section](documentation/thank-you.png)
 
-         #### Footer 
-         * The footer section includes a quick links section, with the navigation link; Home, Classes, Contact us and Book Now.
+ ## **Footer** 
+* The footer section includes a quick links section, with the navigation link; Home, Classes, Contact us and Book Now.
+* The footer contains a 'Contact Information' section with address and phone number and email address. Phone number is clickable and enables user to make a direct phone from a mobile device, with call with the phone number displayed. The Email address is clickable which opens up in a new tab. If the users mail is configured correctly, it will allow the user to compose a message and the correct mail address will be populated automatically in the recipients input field. 
 
-        * The footer contains a 'Contact Information' section with address and phone number and email address. Phone number is clickable and enables user to make a direct phone from a mobile device, with call with the phone number displayed. The Email address is clickable which opens up in a new tab. If the users mail is configured correctly, it will allow the user to compose a message and the correct mail address will be populated automatically in the recipients input field. 
-
-        * The footer consists of four links to social-media navigation page sites, within the 'Follow Us' heading. links to four social media sites.All social media links open in seperate new browser window, enabling the user to remain on the site page. 
-        * The footer is valuable to the user as it encourages them to keep connected via social media and gives easy access to interesting information about what is happening at Canons Pilates. 
+* The footer consists of four links to social-media navigation page sites, within the 'Follow Us' heading. links to four social media sites.All social media links open in seperate new browser window, enabling the user to remain on the site page. 
+* The footer is valuable to the user as it encourages them to keep connected via social media and gives easy access to interesting information about what is happening at Canons Pilates. 
     
-        ![Footer Section](documentation/footer.png)
+![Footer Section](documentation/footer.png)
 
 
  
@@ -172,22 +168,9 @@ I used the Inter Sans-Serif as the primary font and Mocando Cursive as the Secon
  
     -     
 
-#### Footer 
-         * The footer section includes a quick links section, with links to 4 navigation page links to four social media sites. 
 
-	* The footer contains a Contact section with address and phone number and email address. Email address is clickable which opens up in a new tab. If the users mail is configured correctly, it will allow the user to compose a message and the correct mail address will be populated automatically in the recipients input field 
-
-  
-
-   * The footer contains social media for The links will open to a new browser tab to allow easy navigation for the user. 
-   * The footer is valuable to the user as it encourages them to keep connected via social media and gives easy access to interesting information about what is happening at Canons Pilates. 
- 
-         ![Footer](documentation/footer.png) 
 
  
 
-  #### Thank You Page 
-          * The user is taken to a Thank you confirmation page after booking a class from the book now page. This opens in a new browser tab. This improves user experience as they recieve feedback that their enquiry form was sent successfully. The 
- 
-         ![Thank you page](documentation/thankyou_page.jpeg) 
+
  
