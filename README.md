@@ -101,7 +101,8 @@ I used the Inter Sans-Serif as the primary font and Mocando Cursive as the Secon
 *The navigation section promotes ease of use for the user, allowing the user to move easily between sections and pages. There is a striking image on the homepage to attract the attention of the user. Athlete image, which is compact displays a typical althlete performing a superb pilates asana.It is in a circular format, with Pilates labelled twice around the image. 
  
 ![Navigation Bar](documentation/navigation-bar.png) 
-	
+*Navigation bar is fully responsive. On small devices it contains hamburger menu on top right hand corner
+
 
 *The Carousel is found at the top of the home page, below the navigation bar.It is autoplaying and also gives the user the option to navigate back and forth with clear indicators on the left and right of the carousel section. Carousel consists of four large images underneath the Navigation bar . Please see first image below. The remaining images you can see from the site when you navigate across and allow the carousel to autoplay.   
 
