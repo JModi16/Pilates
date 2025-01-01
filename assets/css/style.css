@@ -87,7 +87,7 @@ section#My Pilates {
 .custom-button-outline {
     border: 3px solid var(--highlight-color);
     padding: 7px 25px;
-    color: var(--highlight-color)
+    color: var(--highlight-color);
 }
 
 .custom-button-outline:hover {
@@ -330,7 +330,6 @@ header.section {
 }
 .form-container .btn-primary:hover {
     background-color: #004aad /* Darker blue on hover */
-    border:none;
 }
 
   /* Book Now and Submit Button Styling */
@@ -347,7 +346,7 @@ header.section {
     transition: all 0.3s ease; /* Smooth transition effect */
   }
   
-  .book-now, .submit :hover {
+  .book-now:hover, .submit:hover {
     background-color: #007bff; /* Blue background on hover */
     color: white; /* White text on hover */
   }
@@ -430,7 +429,7 @@ header.section {
     clear: both;
   }
   /*Contact Us Section*/
-  
+
   .section-heading {
     font-family: Verdana, sans-serif; /* Use Verdana for headings */
     font-weight:bold;
@@ -478,20 +477,15 @@ header.section {
 /* Media queries */
 
 /* Small screens and up */
-
-@media screen and (min-width: 576px) {
-
-    /* increase font size in events table when screen size is large enough */
-
-    #events .table {
-
-        font-size: 1rem;
-
-    }
-
+/* increase font size in events table when screen size is large enough */
+@media screen and (min-width: 576px) 
+#events.table {
+font-size: 1rem;
+}
+ /* Make all service cards the same height for consistency */
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
-    /* Make all service cards the same height for consistency */
+   
     #services .card-body {
         min-height: 191px;
     }
@@ -499,7 +493,7 @@ header.section {
  /* Make all service cards the same height for consistency */
 @media screen and (max-width: 768px) {
  #services.card-body {
- min-height:100px;
+       min-height: 100px;
 }
     
 
@@ -512,11 +506,9 @@ header.section {
 }
 
 /* xl devices (large desktops, 1200px and up) */
-@media screen and (min-width: 1200px) {
+ 
     /* make all service cards the same height for consistency */
     #services .card-body {
-        min-height: 220px;
-    }
-
-
-    
+      min-height: 220px;{
+      }
+  }
