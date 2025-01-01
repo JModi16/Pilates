@@ -1,0 +1,518 @@
+
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
+
+/* CSS Variables */
+:root {
+    --primary-font: "Inter", sans-serif;
+    --secondary-font:"Macondo", cursive;
+    --primary-color: #3a2620; /* dark brown */
+    --secondary-color: #aa9581; /* light brown */
+    --highlight-color: #416a8e; /* blue */
+    --highlight-color-light: #7a9fc2; /* light blue */
+}
+
+/* Global styles */
+
+body {
+    font-family: var(--primary-font);
+    margin:0;
+    padding:0;
+    padding-top:70px; /* Ensure content does not overlap with fixed navbar */
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+.sub-heading-color {
+    color: var(--highlight-color);
+}
+
+
+.carousel-control-next {
+    right: 10px;
+}
+.carousel-control-prev {
+    left: 10px;
+}
+
+/* Limit carousel height and fit images neatly */ 
+.carousel-inner img { 
+height: 100%;
+object-fit:cover;
+}
+
+section#My Pilates {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.section {
+    margin-top: 50px;
+    width:100%;
+}
+
+.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+/* Buttons */
+
+.custom-button-filled {
+    border: 2px solid var(--highlight-color);
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem; 
+    border-radius: 20px; /* Rounded corners */
+    font-size: 0.9rem; /* Slightly smaller text */
+}
+
+.custom-button-filled:hover {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.custom-button-outline {
+    border: 3px solid var(--highlight-color);
+    padding: 7px 25px;
+    color: var(--highlight-color);
+}
+
+.custom-button-outline:hover {
+    background-color: var(--highlight-color);
+    color: white
+}
+/* Navbar Section */
+
+.nav {
+    margin-bottom: 50px;
+}
+
+#navbar {
+  padding: 0.5rem 1rem; /* reduced padding to reduce height of navbar*/
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for better visual hierarchy */
+}
+
+#navbar .logo {
+    width: 30px;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #004aad;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #ebfafe;
+    display: none; /* set to none so that the Nav bar is hidden until users click to open*/
+    top: 100%;
+
+  }
+
+  /* Adjust link spacing and alignment */
+.nav-link {
+  padding: 0.5rem; /* Adjust padding */
+
+  
+  nav a {
+    color: #ebfafe;
+    text-decoration: none;
+    font-size: 110%;
+  }
+  /* Nav toggle */
+  #nav-toggle:checked ~ nav {
+    display: block;
+  }
+  
+  #nav-toggle {
+    display: none;
+  }
+  
+  .nav-toggle-label {
+    font-size: 2rem;
+    color: #ebfafe;
+    margin-right: 0px;
+    margin-left: 10px;
+  }
+ /* Logo customization */
+  .navbar-brand .logo {
+  height: 40px; /* Adjust logo height */
+  width: auto; /* Maintain aspect ratio */
+}
+
+  /*Adjust spacing between navbar and carousel*/
+.carousel-section {  
+  padding: 10px;
+  margin-top: 70px;
+  }
+
+  /*------------------------------------------------FOOTER-----------------------------------------------------*/
+  .footer {
+    background-color: #004aad; /* Navy blue dark */
+    color: #004aad;
+    border-top:1px soild #444; /*border to provide space from footer to content*/
+  }
+    .footer-custom {
+      background-color: #004aad;/*bootstrap primary blue*/
+    }
+  .footer h5 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  .footer ul {
+    padding-left: 0;
+    list-style: none; /* Remove bullet points */
+  }
+  .footer ul li a {
+    color: #fff; /* Link color */
+    text-decoration: none;
+  }
+  .footer ul li a:hover {
+    text-decoration: underline; /* Hover effect */
+  }
+  .footer .social-links a {
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+  .footer .btn-outline-light {
+    border-color: #fff; /* Add border for 'Book Now' */
+    color: #fff;
+    padding: 0.5rem 1rem;
+  }
+  .footer .btn-outline-light:hover {
+    background-color: #fff;
+    color: #343a40; /* Invert colors on hover */
+  }
+  /*Social -Links*/
+  .social-links a {
+    font-size: 1.5rem; /* Ensure icons are visible */
+    color: white; /* Ensure icons have a visible color */
+    margin-right: 10px; /* Add spacing between icons */
+     /* Enlarge main element to push footer down*/
+     flex: 1 0 auto;
+     /* Add margin at the top to prevent content from being covered by the header */
+     margin-top: 20px;
+     /* Enable flex properties for child elements */
+     flex-direction: row;
+     display: flex;
+   }
+  
+  
+/* Main content */
+main {
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 20px;
+    /* Enable flex properties for child elements */
+    flex-direction: column;
+    display: flex;
+  }
+ 
+ 
+/* Header */
+
+#header .lead {
+    font-family: var(--secondary-font);
+}
+header.section {
+    padding-top: 40px;
+    margin-bottom:20px;
+}
+#header.container {
+  padding-top: 50px;
+  padding-bottom: 50px
+}
+.container {
+    max-width:1200px;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+/*Circle Styling*/
+
+
+.rounded-circle 
+{
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover; /* Ensure the image fills the circle */
+}
+
+/* Reasons Section Title */
+#reasons h2 {
+  font-size: 2.8em; /* Adjust heading size */
+  text-align: center; /* Center-align heading */
+  margin-bottom: 20px; /* Add spacing below the heading */
+}
+
+/* My Pilates Journey */
+#MyPilatesJourney {
+    margin-top:2rem;
+    padding-top:0;
+    padding:20px;
+    text-align:left
+}
+
+
+
+/* grid visualisation CSS for testing */
+
+.container,
+
+.row {
+    border: 2px solid black;
+}
+
+
+/* General Styling */
+#events {
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 8px; /* Slightly rounded corners */
+    padding: 20px; /* Internal spacing */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Table Styling */
+  .table {
+    margin-bottom: 20px; /* Space below the table */
+  }
+  
+  .table thead th {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    color: #333; /* Darker text for the header */
+  }
+  
+  .table tbody tr td {
+    font-size: 0.9rem; /* Slightly smaller font for table rows */
+  }
+  
+
+  /*booking form styling*/
+
+  #booking-form {
+    margin-top:200px;
+    padding: 100px;
+  }
+  .form-container {
+    background-color: #007bff; /* Light Blue */
+    color:black; /* White text for contrast */
+    max-width: 600px;
+}
+.form-container .form-control,
+.form-container .form-select,
+.form-container textarea {
+    background-color: #fff; /* White input fields */
+    color: #000; /* Black text inside inputs */
+}
+.form-container label {
+    color: black; /* Black colour labels assist users with impaired vision */
+    white-space: nowrap; /* Prevent label text wrapping */
+}
+
+.form-container .btn-primary {
+    background-color: #007bff; /* Brighter blue for the button */
+    border: none;
+}
+.form-container .btn-primary:hover {
+    background-color: #004aad /* Darker blue on hover */
+}
+
+  /* Book Now and Submit Button Styling */
+.book-now, .submit {
+    display: block; /* Makes it easier to center */
+    margin: 15px auto; /* Centers button and adds spacing above */
+    padding: 8px 16px; /* Adjust padding */
+    border: 2px solid #007bff; /* Blue border */
+    background-color: #0056b3; /* Dark Blue background */
+    color: #0056b3; /* Blue text */
+    font-size: 0.85rem; /* Slightly smaller font */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .book-now:hover, .submit:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: white; /* White text on hover */
+  }
+
+  /*Custom-Submit button styling*/
+  
+/* Button Styling */
+.btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+
+    
+    
+    .text-end {
+        text-align: right; /* Aligns the button to the right */
+    }
+    
+    @media (max-width: 768px) {
+        .btn-custom-outline {
+            width: 100%; /* Full-width button on small screens */
+            text-align: center;
+        }
+    
+  }
+  .display-6 {
+    font-size: 20px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 4px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 8px 8px 8px 0;
+    display: inline-block;
+  }
+  
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: #7a9fc2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /*Contact Us Section*/
+
+  .section-heading {
+    font-family: Verdana, sans-serif; /* Use Verdana for headings */
+    font-weight:bold;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom:0.5rem;
+  }
+  /* Contact Links */
+  .contact-link {
+    margin-top: 0;
+    color: #0056b3; /* blue text color for links */
+    text-decoration: none; /* Remove underline from links */
+    display: block;
+  }
+  .contact-link:hover {
+    color: #0056b3; /*Add hover effect for links */
+    text-decoration: none;
+  }
+  /* Map Styling */
+  .google-map {
+    width: 100%; /* Make the map fit its column */
+    height: 200px; /* Set map height */
+    border: 2px solid #ccc; /* Add a border to the map */
+    border-radius: 5px; /* Add rounded corners to the map */
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .events-container {
+        max-width: 600px;
+    }
+
+    table th, table td {
+        padding: 10px;
+    }
+}
+/* Media queries */
+
+/* Small screens and up */
+/* increase font size in events table when screen size is large enough */
+@media screen and (min-width: 576px) {
+  #events .table {
+      font-size: 1rem;
+  }
+ /* Make all service cards the same height for consistency */
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    #services .card-body {
+        min-height: 191px;
+    }
+}
+/* Small screens max-width :768px) */
+ /* Make all service cards the same height for consistency */
+@media screen and (max-width: 768px) {
+ #services.card-body {
+       min-height: 100px;
+  }
+}
+    
+
+/* Large devices (small laptops, 992px and up) */
+ /* Make all service cards the same height for consistency */
+@media screen and (min-width: 992px) {
+    #services .card-body {
+        min-height: auto;
+    }
+}
+
+/* xl devices (large desktops, 1200px and up) */
+/* Make all service cards the same height for consistency */
+@media screen and (min-width: 1200px)     { 
+    #services .card-body {
+        min-height: 220px;
+    }
+}  
+
+    
