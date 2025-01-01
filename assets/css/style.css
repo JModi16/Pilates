@@ -329,7 +329,7 @@ header.section {
     border: none;
 }
 .form-container .btn-primary:hover {
-    background-color: DARK BLUE; /* Darker blue on hover */
+    background-color: #004aad /* Darker blue on hover */
     border:none;
 }
 
@@ -430,15 +430,7 @@ header.section {
     clear: both;
   }
   /*Contact Us Section*/
-
-  body {
-    font-family:Verdana, sans-serif;
-    
-    margin: 0;
-    
-    padding-top:50px;    /*Create spacing between navbar and contact headings */
-  }
- 
+  
   .section-heading {
     font-family: Verdana, sans-serif; /* Use Verdana for headings */
     font-weight:bold;
@@ -506,7 +498,7 @@ header.section {
 }
  /* Make all service cards the same height for consistency */
 @media screen and (max-width: 768px) {
- #services.card-body 
+ #services.card-body {
  min-height:100px;
 }
     
