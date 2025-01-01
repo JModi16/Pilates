@@ -8,7 +8,7 @@ Canons Pilates is a fictional Pilates Centre located in Edgware, North West Lond
 
 The website created for them is a four-page website enabling students and potential students with the passsinate interest of taking up Pilates. Benefits Pilates will bring to their physical and mental health, well being and day to lives. Easily navigate to the type of classes available, when the classes are available and the cost of each class. The site provides its main objective with the ability to book a class online and receive a confirmation message.
 
-![mockup device generator](documentation/mockup-black-generator.png)
+![mockup device generator](documentation/device-mockup-generator.png)
 
 [View the live project here.](https://jmodi16.github.io/Pilates/)
 
