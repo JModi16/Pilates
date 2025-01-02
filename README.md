@@ -75,17 +75,16 @@ The site has a simple structure made up of 4 page links from the Navigation bar:
 There is also another method of navigation, a preferred pathway through the site via ‘Quick Links’ located at the footer of all pages, enabling a first time user through the content. This is designed primarily for students who want to book a class their preferred running class.  
 
 #### **Colour** 
+  * The Colour palette is a mixture of dark blue for the header, white colour for the main body and light blue for the footer.The buttons consists of blue colours too 
+ 
  
 
-To Follow ! 
- 
 
+### **Typography** 
 
-### **Fonts** 
+Fonts were imported from [Google Fonts](https://fonts.google.com/). 
 
-I imported [Google Fonts]  with the google fonts imported link on each page ('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap') 
-
-I used the Inter Sans-Serif as the primary font and Mocando Cursive as the Secondary font as a backup in case the primary font failed. I found the Inter Sans-Serif font is a user-friendly, outstanding and clean typeface that contributes the design. I love the way letters A, M and W stand out in each heading. I was inspired by using the Inter Sans-Serif font when I completed the BoardWalk Games site using on the Code Institute learning management system module. https://jmodi16.github.io/boardwalk-games/ 
+I used the "Inter" Sans-Serif as the primary font and Mocando Cursive as the Secondary font as a backup in case the primary font failed. I found the Inter Sans-Serif font is a user-friendly, outstanding and clean typeface that contributes the design. I love the way letters A, M and W stand out in each heading. I was inspired by using the Inter Sans-Serif font when I completed the BoardWalk Games site using on the Code Institute learning management system module. https://jmodi16.github.io/boardwalk-games/ . I used the primary font "Inter" Sans-Serif for headings too.
 
  
 
@@ -101,7 +100,8 @@ I used the Inter Sans-Serif as the primary font and Mocando Cursive as the Secon
 *The navigation section promotes ease of use for the user, allowing the user to move easily between sections and pages. There is a striking image on the homepage to attract the attention of the user. Athlete image, which is compact displays a typical althlete performing a superb pilates asana.It is in a circular format, with Pilates labelled twice around the image. 
  
 ![Navigation Bar](documentation/navigation-bar.png) 
-*Navigation bar is fully responsive. On small devices it contains hamburger menu on top right hand corner
+*Navigation bar is fully responsive. On small devices it contains hamburger menu on top right hand corner.
+![Navigation Bar](documentation/hamburger-openedmenu.png) 
 
 
 *The Carousel is found at the top of the home page, below the navigation bar.It is autoplaying and also gives the user the option to navigate back and forth with clear indicators on the left and right of the carousel section. Carousel consists of four large images underneath the Navigation bar . Please see first image below. The remaining images you can see from the site when you navigate across and allow the carousel to autoplay.   
