@@ -258,7 +258,6 @@ header.section {
   border: none;
   padding: 20px;
   text-align: center;
-  max-width: 300px; /* Control the width of each thumbnail */
 }
 
 #reasons img {
@@ -291,7 +290,7 @@ header.section {
   display: flex; /* Center the columns */
   justify-content:center; /* Space out the columns evenly */
   gap:20px; /* Space between columns */
-  flex-wrap:wrap;/* Allow wrapping on smaller screens */
+  flex-wrap:wrap; /* Allow wrapping on smaller screens */
 }
 
 /* My Pilates Journey */
