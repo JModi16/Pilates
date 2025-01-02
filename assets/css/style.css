@@ -227,7 +227,7 @@ main {
 /* Header */
 
 #header .lead {
-    font-family: var(--secondary-font);
+    font-family: var(--primary-font);
 }
 header.section {
     padding-top: 40px;
@@ -431,7 +431,7 @@ header.section {
   /*Contact Us Section*/
 
   .section-heading {
-    font-family: Verdana, sans-serif; /* Use Verdana for headings */
+    font-family: var(--primary-font);/* Use 'Inter' sans-Serif for headings */
     font-weight:bold;
     font-size: 1.5rem;
     margin-top: 1rem;
