@@ -86,54 +86,20 @@ section#My Pilates {
   margin: 0 auto; /* Center the form container */
   padding: 10px 20px; /*Created padding for improved spacing*/
   border-radius: 10px;
+  text-align:left;
 }
 
 #MyPilatesBooking.responsive-form {
   margin-top:20px; /*Added margin top to seperate heading from responsive form*/
 }
+
+ 
+
 .py-5 {
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
 }
-/* Media query for devices with width below 1000px */
-@media (max-width: 1000px) {
-  #MyPilatesBooking h2 {
-      font-size: 2rem; /* Adjust font size */
-  }
 
-  #MyPilatesBooking .form-container {
-      padding: 8px 15px; /* Adjust padding */
-  }
-}
-
-/* Media query for devices with width below 500px */
-@media (max-width: 500px) {
-  #MyPilatesBooking h2 {
-      font-size: 1.8rem; /* Adjust font size */
-      margin-bottom: 8px; /* Adjust margin */
-  }
-
-  #MyPilatesBooking .form-container {
-      padding: 5px 10px; /* Adjust padding */
-  }
-
-  #MyPilatesBooking .form-container .row {
-      flex-direction: column; /* Stack elements vertically */
-  }
-
-  #MyPilatesBooking .form-container .col-md-4,
-  #MyPilatesBooking .form-container .col-md-8 {
-      width: 100%; /* Full width for input fields */
-      text-align: left; /* Align text to the left */
-  }
-
-  #MyPilatesBooking .form-container .form-label {
-      text-align: left; /* Align labels to the left */
-  }
-
-  #MyPilatesBooking .responsive-form {
-      margin-top: 15px; /* Adjust margin */
-  }
 
 /* Buttons */
 
