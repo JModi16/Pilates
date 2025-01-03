@@ -64,11 +64,11 @@ section#My Pilates {
 }
 #MyPilatesBooking {
   text-align: center;
-  padding-top: 50px; /* Add padding to bring the heading higher */
+  padding-top: 20px; /* Add padding-top to bring the heading higher */
 }
 
 #MyPilatesBooking h2 {
-  margin-bottom: 20px; /* Adjust margin as needed */
+  margin-bottom: 20px; /* Adjusted margin bottom to bring form closer */
   font-size: 2.5rem; /* Adjust font size as needed */
 }
 
@@ -84,8 +84,12 @@ section#My Pilates {
 #MyPilatesBooking .form-container {
   max-width: 600px;
   margin: 0 auto; /* Center the form container */
-  padding: 20px;
+  padding: 10px; /*Created padding for improved spacing*/
   border-radius: 10px;
+}
+
+#MyPilatesBooking.responsive-form {
+  margin-top:20px; /*Added margin top to seperate heading from responsive form*/
 }
 .py-5 {
   padding-top: 3rem !important;
