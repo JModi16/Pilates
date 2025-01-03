@@ -148,13 +148,53 @@
             </div>
     </section>
 </main>        
+ <!-- Booking Second form section -->
+  <section class="booking-section">
+    <h2>Class Booking Form</h2>
+    <p>Thank you for choosing to reserve a well deserved and rewarding spot at Canons Pilates! Please
+    fill out the form below with your personal details, select the date and preferred class type. Once you have completed the booking form, 
+    you should receive a confirmation message by email.<strong>Please ensure you detail any medical issues you may have and 
+    special requirements you require on the day in the message section of the form,</strong> to ensure our instructor can accomodate you on the day.
+    If required, a member of our team may call you back as soon as possible to ask further questions and discuss further.
+    </p>
+<div class="img-container>
+    <img src="/assets/images/one-to-one-Pilates.jpg" alt="Pilates Class" class="background-image">
+  <form action="/success.html" class="bookingcontainer">
+    <h1>Canons Pilates</h1>
+
+    <label for="fname"><b>First Name</b></label>
+    <input type="text" placeholder="Your first name" name="firstname" required>
+    <label for="lname"><b>Last Name</b></label>
+    <input type="text" placeholder="Your last name" name="lastname" required>
+    <label for="email"><b>Email</b></label>
+    <input type="email" placeholder="Your Email" name="email" required>
+    <div class="row">
+        <div class="col-25">
+          <label for="Classes">Classes</label>
+        </div>
+        <div class="col-75">
+          <select id="MyClasses" name="My Class">
+            <option value="groupclass">Group Class</option>
+            <option value="onetooneclass">One to One Class</option>
+            <option value="chairpilates">Chair Pilates</option>
+            <option value="onlinepilates">Online Pilates</option>
+          </select>
+        </div>
+      </div>
+    <label for="message"><b>Message</b></label>
+    <input type="text" placeholder="Your Message..." name="message" required>
+
+    <button type="submit" class="btn">Login</button>
+  </form>
+</div>
+</section>
         
         <!-- Footer / contact section -->
         <!-- mt-auto added to push footer to the bottom of the page -->
         <footer class="footer bg-primary text-white py-2">
             <div class="container">
             <div class="row">
-            <div class="d-flex justify-content-between align-items-start flex-wrap" 
+            <div class="d-flex justify-content-between align-items-start flex-wrap">
             <!-- Quick Links -->
             <div class="col-md-3">
                       <h5 class="text-uppercase">Quick Links</h5>
