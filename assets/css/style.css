@@ -91,9 +91,8 @@ section#My Pilates {
 
 #MyPilatesBooking.responsive-form {
   margin-top:20px; /*Added margin top to seperate heading from responsive form*/
+  text-align: left;
 }
-
- 
 
 .py-5 {
   padding-top: 3rem !important;
