@@ -40,27 +40,29 @@ h2 {
 .sub-heading-color {
     color: var(--highlight-color);
 }
+
+/*Adjusted to raise title higher*/
 h2.Telephone, 
 h2.Email {
   margin-top:0;
-  margin-bottom:0.5rem;
+  margin-bottom:0;
+  font-size: 1.8rem;
 }
 
-h2.Telephone {
-  margin-top: -0.5rem;/*Adjusted to raise title higher*/
+/*Style for contact row to align h2 and p on the same line*/
+.contact-row  {
+  display: flex;
+  align-items:center;
+  gap: 1rem; /*Adjust to maintain a gap*/
 }
-
-h2.Email {
-  margin-top: -1rem; /*Adjusted to raise title higher*/
-}
-
-
 .carousel-control-next {
     right: 10px;
 }
 .carousel-control-prev {
     left: 10px;
 }
+
+
 
 /* Limit carousel height and fit images neatly */ 
 .carousel-inner img { 
@@ -285,11 +287,7 @@ header.section {
   padding-top: 50px;
   padding-bottom: 50px
 }
-.container {
-    max-width:1200px;
-    padding-top: 50px;
-    padding-bottom: 50px
-}
+
 
 
 
@@ -492,6 +490,9 @@ header.section {
     background-color: #7a9fc2;
     padding: 20px;
     margin-top: 5rem;
+    max-width:1200px;
+    padding-top: 50px;
+    padding-bottom: 50px
   }
   
   .col-25 {
