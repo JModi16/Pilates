@@ -36,8 +36,22 @@ h2 {
     margin-bottom: 2rem;
 }
 
+
 .sub-heading-color {
     color: var(--highlight-color);
+}
+h2.Telephone, 
+h2.Email {
+  margin-top:0;
+  margin-bottom:0.5rem;
+}
+
+h2.Telephone {
+  margin-top: -0.5rem;/*Adjusted to raise title higher*/
+}
+
+h2.Email {
+  margin-top: -1rem; /*Adjusted to raise title higher*/
 }
 
 
@@ -477,6 +491,7 @@ header.section {
     border-radius: 5px;
     background-color: #7a9fc2;
     padding: 20px;
+    margin-top: 5rem;
   }
   
   .col-25 {
