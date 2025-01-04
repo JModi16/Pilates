@@ -45,7 +45,7 @@ h2 {
 h2.Telephone, 
 h2.Email {
   margin-top:0;
-  margin-bottom:0;
+  margin-bottom:0.25;
   font-size: 1.8rem;
 }
 
@@ -53,7 +53,13 @@ h2.Email {
 .contact-row  {
   display: flex;
   align-items:center;
-  gap: 1rem; /*Adjust to maintain a gap*/
+  gap: 0.5rem; /*Adjust  gap between h2 and p*/
+}
+/* Adjust the p elements to raise them slightly */
+.contact-row p {
+  margin: 0;
+  position: relative;
+  top: -1rem; /* Adjust this value as needed to align with h2 */
 }
 .carousel-control-next {
     right: 10px;
