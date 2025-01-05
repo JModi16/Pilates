@@ -44,7 +44,7 @@ h2 {
 /*Adjusted to raise title higher*/
 h2.Telephone, 
 h2.Email {
-  margin-top:0;
+  margin-top:0p;
   margin-bottom:0.25;
   font-size: 1.8rem;
 }
@@ -181,7 +181,7 @@ nav {
   /* Adjust link spacing and alignment */
 .nav-link {
   padding: 0.5rem; /* Adjust padding */
-
+}
   
   nav a {
     color: #ebfafe;
@@ -217,11 +217,9 @@ nav {
 
   /*------------------------------------------------FOOTER-----------------------------------------------------*/
   .footer {
-    background-color: #004aad; /* Navy blue dark */
+    background-color: #004aad; /* Navy blue dark for background */
     color: #004aad;
-    border-top:1px soild #444; /*border to provide space from footer to content*/
-    padding:20px;
-    margin-top:20px;
+    border-top:1px solid #444; /*border to provide space from footer to content*/
   }
     .footer-custom {
       background-color: #004aad;/*bootstrap primary blue*/
@@ -346,6 +344,11 @@ header.section {
   gap:20px; /* Space between columns */
   flex-wrap:wrap; /* Allow wrapping on smaller screens */
 }
+#reasons .col-md-4 {
+  flex: 1 1 30%;
+  max-width:30%;
+  box-sizing: border-box;
+}
 
 /* My Pilates Journey */
 #MyPilatesJourney {
@@ -359,11 +362,6 @@ header.section {
 
 /* grid visualisation CSS for testing */
 
-.container,
-
-.row {
-    border: 2px solid black;
-}
 
 
 /* General Styling */
@@ -456,7 +454,7 @@ header.section {
   
   .btn:hover {
     background-color: #0056b3;
-
+  
     
     
     .text-end {
@@ -588,7 +586,7 @@ header.section {
  #services.card-body {
        min-height: 100px;
   }
-}
+
     
 
 /* Large devices (small laptops, 992px and up) */
@@ -601,8 +599,8 @@ header.section {
 
 /* xl devices (large desktops, 1200px and up) */
 /* Make all service cards the same height for consistency */
-@media screen and (min-width: 1200px)     { 
-    #services .card-body {
-        min-height: 220px;
+@media screen and (min-width: 1200px) { 
+  #services .card-body {
+      min-height: 220px; 
     }
-}  
+}
