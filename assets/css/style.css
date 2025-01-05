@@ -347,7 +347,12 @@ header.section {
 #reasons .col-md-4 {
   flex: 1 1 30%;
   max-width:30%;
-  box-sizing: border-box;
+  box-sizing: border-box; /*Include padding in elements total width and height*/
+}
+
+#reasons .col-md-4 img {
+  width: 100%; /*Ensure images take up full width of column*/
+  height: auto;
 }
 
 /* My Pilates Journey */
