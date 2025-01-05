@@ -220,6 +220,8 @@ nav {
     background-color: #004aad; /* Navy blue dark */
     color: #004aad;
     border-top:1px soild #444; /*border to provide space from footer to content*/
+    padding:20px;
+    margin-top:20px;
   }
     .footer-custom {
       background-color: #004aad;/*bootstrap primary blue*/
