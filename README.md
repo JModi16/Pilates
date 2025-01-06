@@ -57,8 +57,7 @@ The website created for them is a four-page website enabling students and potent
 <br/>I chose to have a bright, clean, bold design mainly using blue for my Navigation bar and Footer and Form. I used(#004aad) which is bootstrap primary blue color with lots of visual content such as large eye-catching images.
 
 #### **Wireframes** 
-
-INFORMATION TO FOLLOW  
+ 
 
 #### **Structure** 
  
@@ -162,17 +161,28 @@ All fields need to be completed, including the ‘Message, otherwise they will b
 ## **Error 404 page**
 A error 404 page was created in the event that the page failed to load due to a broken link, page removed, connectivity issue. Once the error 404 is loaded, it enables them to navigate back to the home page. | 
 
-## **User Testing Functionality**   
+  
 ## Validator Testing
 ### HTML
 * All four pages were tested using the [W3C Validator](https://validator.w3.org/).
 * There were several errors encontered due to unclosed div elements, but were corrected
-* [Home Page](/documentation/homepage-w3validator.png)
-* [Classes Page](/documentation/classes-w3validator.png)
-* [Contact Us Page](/documentation/contact-w3validator.png)
-* [Book Now Page](/documentation/booking-w3validator.png)
-* The success.html page was free from errors and warnings
+* [Home Page](documentation/homepage-w3validator.png)
+* [Classes Page](documentation/classes-w3validator.png)
+* [Contact Us Page](documentation/contact-w3validator.png)
+* [Book Now Page](documentation/booking-w3validator.png)
+* The success.html page providing conformation when a class iis booked, was free from errors and warnings
+### CSS
+* [CSS Validator](https://jigsaw.w3.org/css-validator/) was used to test the CSS, and shows no errors.
+* [CSS Check ](documentation/css-jigsaw-w3validator.png)
 
+## Lighthouse Testing
+* Lighthouse testing was performed on all four pages
+* [Home Page](documentation/lighthouse-home.png)
+* [Classes Page](documentation/lighthouse-classes.png)
+* [Contact Us Page](documentation/lighthouse-contactus.png)
+* [Book Now Page](documentation/lighthouse-booknow.png) 
+
+## **User Testing Functionality** 
 | Purpose                                                                                         | Action                                                                                                                           | Outcome                                                                                                                                                         |
 | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Ensure device is responsive                                                                     | Checked developer tools in Chrome, under responsive drop down option, all pages are presented in a good format for all devices.  | Site responsive on all devices                                                                                                                                  |
