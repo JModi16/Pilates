@@ -14,8 +14,8 @@ The website created for them is a four-page website enabling students and potent
 
 ## Contents
 
-* [Languages Used](#languages-used)
-* [User Experience](#user-stories)
+* [LanguagesUsed](#languagesused)
+* [UserStories](#userstories)
 * [Design](#design)
   * [Typography](#typography)
   * [Wireframes](#wireframes)
