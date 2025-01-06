@@ -167,10 +167,10 @@ A error 404 page was created in the event that the page failed to load due to a 
 ### HTML
 * All four pages were tested using the [W3C Validator](https://validator.w3.org/).
 * There were several errors encontered due to unclosed div elements, but were corrected
-* [Home Page](assets/documentation/homepage-w3validator.png)
-* [Classes Page](assets/documentation/classes-w3validator.png)
-* [Contact Us Page](assets/documentation/contact-w3validator.png)
-* [Book Now Page](assets/documentation/booking-w3validator.png)
+* [Home Page](/documentation/homepage-w3validator.png)
+* [Classes Page](/documentation/classes-w3validator.png)
+* [Contact Us Page](/documentation/contact-w3validator.png)
+* [Book Now Page](/documentation/booking-w3validator.png)
 * The success.html page was free from errors and warnings
 
 | Purpose                                                                                         | Action                                                                                                                           | Outcome                                                                                                                                                         |
