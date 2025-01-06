@@ -97,14 +97,16 @@ I used the "Inter" Sans-Serif as the primary font and Mocando Cursive as the Sec
 
 * The site has a navbar which remains fixed to the top of the page on desktop, tablet and mobile i this allows a user to access any page they need at any time and would be suitable for a returning visitor who knows exactly where they want to go. There is also a footer on every page with quick links to all pages,  the company pilates social media sites used and a booking button
 * The responsive navigation bar has been applied to all three pages so that the pages are uniform, which is more visually appealing and improves user experience. It is also 'sticky' so that it is visible at all times no matter where the user is on the webpage. The navigation bar includes clear links to the Home, Classes, Contact Us and Book Now pages. 
-*The navigation section promotes ease of use for the user, allowing the user to move easily between sections and pages. There is a striking image on the homepage to attract the attention of the user. Athlete image, which is compact displays a typical althlete performing a superb pilates asana.It is in a circular format, with Pilates labelled twice around the image. 
+* The navigation section promotes ease of use for the user, allowing the user to move easily between sections and pages. There is a striking image on the homepage to attract the attention of the user. Athlete image, which is compact displays a typical althlete performing a superb pilates asana.It is in a circular format, with Pilates labelled twice around the image. 
  
 ![Navigation Bar](documentation/navigation-bar.png) 
-*Navigation bar is fully responsive. On small devices it contains hamburger menu on top right hand corner.
+
+* Navigation bar is fully responsive. On small devices it contains hamburger menu on top right hand corner.
+
 ![Navigation Bar](documentation/hamburger-openedmenu.png) 
 
 
-*The Carousel is found at the top of the home page, below the navigation bar.It is autoplaying and also gives the user the option to navigate back and forth with clear indicators on the left and right of the carousel section. Carousel consists of four large images underneath the Navigation bar . Please see first image below. The remaining images you can see from the site when you navigate across and allow the carousel to autoplay.   
+* The Carousel is found at the top of the home page, below the navigation bar.It is autoplaying and also gives the user the option to navigate back and forth with clear indicators on the left and right of the carousel section. Carousel consists of four large images underneath the Navigation bar . Please see first image below. The remaining images you can see from the site when you navigate across and allow the carousel to autoplay.   
 
 ![Carousel Section](documentation/carousel.png)
 
@@ -156,11 +158,20 @@ All fields need to be completed, including the ‘Message, otherwise they will b
 * The footer is valuable to the he user back to the user encouraging them to keep connected via social media and gives easy access to interesting information about what is happening at Canons Pilates. 
     
 ![Footer Section](documentation/footer.png)
-
+/
 ## **Error 404 page**
 A error 404 page was created in the event that the page failed to load due to a broken link, page removed, connectivity issue. Once the error 404 is loaded, it enables them to navigate back to the home page. | 
 
 ## **User Testing Functionality**   
+## Validator Testing
+### HTML
+* All four pages were tested using the [W3C Validator](https://validator.w3.org/).
+* There were several errors encontered due to unclosed div elements, but were corrected
+* [Home Page](/documentation/homepage-w3validator.png)
+* [Classes Page](/documentation/classes-w3validator.png)
+* [Contact Us Page](/documentation/contact-w3validator.png)
+* [Book Now Page](/documentation/booking-w3validator.png)
+* The success.html page was free from errors and warnings
 
 | Purpose                                                                                         | Action                                                                                                                           | Outcome                                                                                                                                                         |
 | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -204,12 +215,13 @@ A error 404 page was created in the event that the page failed to load due to a 
 -   ### Frameworks, Libraries & Programs Used
 
 * Code Institue Learning Management Tool. This is the important learning management system to assist me with this project enabling me to learn HTML and CSS [Code Institute](https://learn.codeinstitute.net/courses/course-v1:code_institute+DIWAD_MS1+1/courseware/5cc55f6df9fe41cc8dcb4d665a251ded/8341150079674a76b87da0143c45f6f9/)
+* Code Institute 
 * W3Schools html tutorials very useful for code example(https://www.w3schools.com/html/default.asp)
 * W3Schools css tutorials very useful for code examples(https://www.w3schools.com/css/default.asp)
 * W3Schools bootstrap  tutorials very useful to create bootstrap responsive framework mobile and websites [https://www.w3schools.com/bootstrap5/index.php]
 * GitHub is used to store the projects code after being pushed from Git.[GitHub:](https://github.com/)
 * Gitpod- An automated and IDE tool enabling to write, debug and run code [https://www.gitpod.io/]
-* Google fonts  used to import the 'Noto Sans Serif' font into the style.css file which is used on all pages throughout the project. [Google Fonts:](https://fonts.google.com/)
+* Google fonts  used to import the 'Inter' Sans Serif' font as the primary font-family, which is used on all pages throughout the project. [Google Fonts:](https://fonts.google.com/)
 * Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes[Font Awesome:]( https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css)
 * Visual Studio code was the IDE used and within this Git was used for version control by utilizing the terminal to commit changes and Push to GitHub. [VScode:](documentation/gitdemo.jpeg)
 * Balsamiq was used to create the wireframes to support in the design process.[Balsamiq:](https://balsamiq.com/)
