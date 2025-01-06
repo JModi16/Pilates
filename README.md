@@ -158,7 +158,7 @@ All fields need to be completed, including the ‘Message, otherwise they will b
 * The footer is valuable to the he user back to the user encouraging them to keep connected via social media and gives easy access to interesting information about what is happening at Canons Pilates. 
     
 ![Footer Section](documentation/footer.png)
-
+/
 ## **Error 404 page**
 A error 404 page was created in the event that the page failed to load due to a broken link, page removed, connectivity issue. Once the error 404 is loaded, it enables them to navigate back to the home page. | 
 
@@ -167,7 +167,11 @@ A error 404 page was created in the event that the page failed to load due to a 
 ### HTML
 * All four pages were tested using the [W3C Validator](https://validator.w3.org/).
 * There were several errors encontered due to unclosed div elements, but were corrected
-* [Home Page](
+* [Home Page](assets/documentation/homepage-w3validator.png)
+* [Classes Page](assets/documentation/classes-w3validator.png)
+* [Contact Us Page](assets/documentation/contact-w3validator.png)
+* [Book Now Page](assets/documentation/booking-w3validator.png)
+* The success.html page was free from errors and warnings
 
 | Purpose                                                                                         | Action                                                                                                                           | Outcome                                                                                                                                                         |
 | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
