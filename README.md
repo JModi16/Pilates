@@ -163,6 +163,11 @@ All fields need to be completed, including the ‘Message, otherwise they will b
 A error 404 page was created in the event that the page failed to load due to a broken link, page removed, connectivity issue. Once the error 404 is loaded, it enables them to navigate back to the home page. | 
 
 ## **User Testing Functionality**   
+## Validator Testing
+### HTML
+* All four pages were tested using the [W3C Validator](https://validator.w3.org/).
+* There were several errors encontered due to unclosed div elements, but were corrected
+* [Home Page](
 
 | Purpose                                                                                         | Action                                                                                                                           | Outcome                                                                                                                                                         |
 | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -206,6 +211,7 @@ A error 404 page was created in the event that the page failed to load due to a 
 -   ### Frameworks, Libraries & Programs Used
 
 * Code Institue Learning Management Tool. This is the important learning management system to assist me with this project enabling me to learn HTML and CSS [Code Institute](https://learn.codeinstitute.net/courses/course-v1:code_institute+DIWAD_MS1+1/courseware/5cc55f6df9fe41cc8dcb4d665a251ded/8341150079674a76b87da0143c45f6f9/)
+* Code Institute 
 * W3Schools html tutorials very useful for code example(https://www.w3schools.com/html/default.asp)
 * W3Schools css tutorials very useful for code examples(https://www.w3schools.com/css/default.asp)
 * W3Schools bootstrap  tutorials very useful to create bootstrap responsive framework mobile and websites [https://www.w3schools.com/bootstrap5/index.php]
