@@ -44,8 +44,8 @@ h2 {
 /*Adjusted to raise title higher*/
 h2.Telephone, 
 h2.Email {
-  margin-top:0p;
-  margin-bottom:0.25;
+  margin-top:0rem;
+  margin-bottom:0.25rem;
   font-size: 1.8rem;
 }
 
