@@ -217,8 +217,9 @@ nav {
 
   /*------------------------------------------------FOOTER-----------------------------------------------------*/
   .footer {
-    background-color: #004aad; /* Navy blue dark for background */
+    background-color: #004aad; /* Navy blue dark color for background */
     color: #004aad;
+    padding: 20px 0; /* provide space between top and bottom of footer*/
     border-top:1px solid #444; /*border to provide space from footer to content*/
   }
     .footer-custom {
@@ -240,6 +241,12 @@ nav {
   .footer ul li a:hover {
     text-decoration: underline; /* Hover effect */
   }
+  .footer .social-links {
+    display:flex; /*For horizontal alignment of social-links*/
+    justify-content: center;/*Centre Social Links*/
+    align-items: center;
+    gap:10px; /*Add gap between social-links*/
+  }
   .footer .social-links a {
     font-size: 1.5rem;
     margin-right: 10px;
@@ -253,19 +260,6 @@ nav {
     background-color: #fff;
     color: #343a40; /* Invert colors on hover */
   }
-  /*Social -Links*/
-  .social-links a {
-    font-size: 1.5rem; /* Ensure icons are visible */
-    color: white; /* Ensure icons have a visible color */
-    margin-right: 10px; /* Add spacing between icons */
-     /* Enlarge main element to push footer down*/
-     flex: 1 0 auto;
-     /* Add margin at the top to prevent content from being covered by the header */
-     margin-top: 20px;
-     /* Enable flex properties for child elements */
-     flex-direction: row;
-     display: flex;
-   }
   
   
 /* Main content */
@@ -352,7 +346,7 @@ header.section {
 
 #reasons .col-md-4 img {
   width: 100%; /*Ensure images take up full width of column*/
-  height: auto;
+  height: 100%;
 }
 
 /* My Pilates Journey */

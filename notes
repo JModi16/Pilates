@@ -308,3 +308,18 @@ padding-bottom: 20px;
          4. As a regular visitor, I need to check social-media links, so I can join and keep up to date with events, offers and classes available.
 
          @media screen and (min-width: 1200px)
+
+         /*Social -Links*/
+  .social-links a {
+    font-size: 1.5rem; /* Ensure icons are visible */
+    color: white; /* Ensure icons have a visible color */
+    margin-right: 10px; /* Add spacing between icons */
+     /* Enlarge main element to push footer down*/
+     flex: 1 0 auto;
+     /* Add margin at the top to prevent content from being covered by the header */
+     margin-top: 20px;
+     /* Enable flex properties for child elements */
+     flex-direction: row;
+     display: flex;
+   }
+  
