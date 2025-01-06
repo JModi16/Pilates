@@ -34,6 +34,8 @@ h2 {
 
 h2 {
     margin-bottom: 2rem;
+    font-size: 2.5rem; /* Created and Adjusted font-size for clearer headings*/
+    text-align: center; /*center h2 element*/
 }
 
 
@@ -44,8 +46,8 @@ h2 {
 /*Adjusted to raise title higher*/
 h2.Telephone, 
 h2.Email {
-  margin-top:0rem;
-  margin-bottom:0.25rem;
+  margin-top: 0.25em;
+  margin-bottom: 1.25em;
   font-size: 1.8rem;
 }
 
@@ -61,6 +63,7 @@ h2.Email {
   position: relative;
   top: -1rem; /* Adjust this value as needed to align with h2 */
 }
+
 .carousel-control-next {
     right: 10px;
 }
@@ -288,17 +291,16 @@ header.section {
   padding-bottom: 50px
 }
 
+  /* CSS Variables */
+  :root {
+      --primary-font: "Inter", sans-serif;
+      --secondary-font: "Macondo", cursive;
+      --primary-color: #3a2620; /* dark brown */
+      --secondary-color: #aa9581; /* light brown */
+      --highlight-color: #416a8e; /* blue */
+      --highlight-color-light: #7a9fc2; /* light blue */
+  }
 
-
-
-
-
-
-/* Reasons Section */
-#reasons {
-  text-align: center;
-  margin-bottom: 50px;
-}
 
 #reasons .thumbnail {
   border: none;
@@ -451,29 +453,29 @@ header.section {
     transition: background-color 0.3s ease;
   }
   
-  .btn:hover {
-    background-color: #0056b3;
-  }
+.btn:hover {
+  background-color: #0056b3;
+}
+  
     
     
-    .text-end {
-        text-align: right; /* Aligns the button to the right */
-    }
+.text-end {
+    text-align: right; /* Aligns the button to the right */
+}
     
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
         .btn-custom-outline {
             width: 100%; /* Full-width button on small screens */
             text-align: center;
         }
-    
-  }
+}
   .display-6 {
-    font-size: 20px;
+    font-size: 40px; /*Increase font size for display-6 class headings*/
   }
+  
 
-  * {
-    box-sizing: border-box;
-  }
+
+
   
   input[type=text], select, textarea {
     width: 100%;
@@ -487,10 +489,12 @@ header.section {
     padding: 8px 8px 8px 0;
     display: inline-block;
   }
+
+
   
-  
-  
-  .container {
+
+
+  /* .container {
     border-radius: 5px;
     background-color: #7a9fc2;
     padding: 20px;
@@ -498,7 +502,7 @@ header.section {
     max-width:1200px;
     padding-top: 50px;
     padding-bottom: 50px
-  }
+  } */
   
   .col-25 {
     float: left;
@@ -567,11 +571,12 @@ header.section {
 /* Media queries */
 
 /* Small screens and up */
-/* increase font size in events table when screen size is large enough */
+
 @media screen and (min-width: 576px) {
   #events .table {
       font-size: 1rem;
   }
+}
  /* Make all service cards the same height for consistency */
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
@@ -585,7 +590,7 @@ header.section {
  #services.card-body {
        min-height: 100px;
   }
-
+}
     
 
 /* Large devices (small laptops, 992px and up) */
@@ -598,8 +603,10 @@ header.section {
 
 /* xl devices (large desktops, 1200px and up) */
 /* Make all service cards the same height for consistency */
+
 @media screen and (min-width: 1200px) { 
   #services .card-body {
       min-height: 220px; 
-    }
+  }
 }
+  
