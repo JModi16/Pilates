@@ -232,7 +232,8 @@ A error 404 page was created in the event that the page failed to load due to a 
 | Confirm Map can open in Contact Us section                                                      | Clicked on google map on Contact Us section                                                                                      | Map opens up in a high zoom, with the ability to search directions  
 
 ### **Bugs on Site**
-
+* Problems were encountered during the development process.However, all were fixed except one. Please see below.
+                                                                                                                          
 | Problem                                                                                                 | Solution                                                                                                                                                                                                                              | Resolved |
 | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
 | Navigation bar covering carousel. Causing Carousel header to be chopped                                 | Adjusted margin-top in css for carousel section from 70 px to 100px and margin-bottom from 20px to 50px. Added mt-5 within the within the carousel section, using bootstrap grid system.                                              | Yes      |
@@ -243,6 +244,8 @@ A error 404 page was created in the event that the page failed to load due to a 
 | Circle images appeared in square on home page instead of circles. Content not appearing in line         | Used  class="rounded-circle img-fluid" within the section class to ensure images are responsive and object -fit : cover in style sheet applied to ensure images cover are with distortion and<br>                         img-fluid"> | Yes      |
 | Circle images on home page appear vertically                                                            | Applied the .col-md-4 element in styling properties to ensure column takes up full width.                                                                                                                                             | Yes      |
 | Footer appearing too high, the social-links are vertical and content is compressed together             | Adding padding style to footer properties. Applied display and flex to align social-links horizontally.                                                                                                                               | Yes      |
+| Navbar header too low, covering main body.                                                              | Added navbar navbar-expand-lg fixed-top in header to resolve. Changed margin -top and padding.                                                                                                                                        | Yes      |
+| Book now button and submit button not styled in same way                                                | Attempted to compare and apply book now and submit styling properties , so all buttons have same styles                                                                                                                               | No       |
 
 ### **Features For The Future**
 * In the future a 'Book Online' feature will be implemented and marketed encouraging student users to directly book their Pilates classes online rather than sending a booking enquiry by email  or needing to speak to a member of the Pilates team. This should improve user experience as they can more efficiently book classes.
@@ -267,6 +270,7 @@ A error 404 page was created in the event that the page failed to load due to a 
 * Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes[Font Awesome:]( https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css)
 * Visual Studio code was the IDE used and within this Git was used for version control by utilizing the terminal to commit changes and Push to GitHub. [VScode:](documentation/gitdemo.jpeg)
 * Balsamiq was used to create the wireframes to support in the design process.[Balsamiq:](https://balsamiq.com/)
+* Screen reader was the website used to capture screenshot images of my site to add to my readme document [SceenRec](https://screenrec.com/)
 
 ## Deployment
 -   ### Deployment
@@ -289,6 +293,13 @@ It can take some time for the page to be fully deployed.
 9. Your URL will be displayed above "Source"
 
 
+# Credits
+1. Code Institute - It was a pure pleasure to learn HTML, CSS, use of the Bootstrap, and Gitpod with Code Institute. Participating in the course allows me to develop my frontend development skills. I partcularly enjoyed the carousel creation and booking form creation where knowledge was obtained from the Love running and BoardGames project.Their tutor support was good when they were available.
+2. Manuel Perez Romero from Bristol City College for his support and lecturing.
+3. Gareth McGirr - my menthor, was helpful and provided me good ideas to progress with this project.
+4. Slack community channels - Their support and advise was good.
+5. Images on the home page and classes page were downloaded from [FreePik](https://www.freepik.com) and images for my carousel were from [David Lloyd gym](https://www.davidlloyd.co.uk/pilates/)
+6. My Pilates class at my local sports centre who inspired me to generate this idea
 
 
 
