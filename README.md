@@ -6,17 +6,21 @@
 
 Canons Pilates is a fictional Pilates Centre located in Edgware, North West London, UK. The current process in the way they are looking to place bookings for classes needs to be completely changed and adjusted with the use of a functional and user-friendly website.
 
-The website created for them is a four-page website enabling students and potential students with the passsinate interest of taking up Pilates. Benefits Pilates will bring to their physical and mental health, well being and day to lives. Easily navigate to the type of classes available, when the classes are available and the cost of each class. The site provides its main objective with the ability to book a class online and receive a confirmation message.
+The website created for them is a four-page website enabling students and potential students with the passsinate interest of taking up Pilates. Benefits Pilates will bring to their physical and mental health, well being and day to lives. The site enables you to easily navigate to the type of classes available and with the class information, with particular focus to group and chair classes due to thericurrent demand. The site provides its main objective with the ability to book a class online and receive a confirmation message.
 
 ![mockup device generator](documentation/device-mockup-generator.png)
 
 [View the live project here.](https://jmodi16.github.io/Pilates/)
 # Contents
 
-* [LanguagesUsed](#languagesused)
-* [UserStories](#userstories)
+* [Languages Used](#languages-used)
+* [User Experience (UX)](#user-experience-ux)
+  * [Project Goals](#project-goals)
+  * [User Goals](#user-goals)
+  * [Site Owner Goals](#site-owner-goals)
+  * [User Stories](#user-stories)
 * [Design](#design)
-  * [Colour]
+  * [Colour](#colour)
   * [Typography](#typography)
   * [Wireframes](#wireframes)
 * [Structure](#design)
@@ -24,19 +28,44 @@ The website created for them is a four-page website enabling students and potent
   * [Features For The Future](#features-for-the-future)
 * [Technologies Used](#technologies-used)
   * [ Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
-* [Testing](#testing)
-  * [User Experience](#user-experience-ux)
-  * [Accessibility](#accessibility)
-  * [Deployment](#deployment)
-  * [Run locally](#run-locally)
+* [Testing](#Testing)
+  * [Validator-Testing](#validator-testing)
+  * [Lighthouse-testing](#lighthouse-testing)
+  * [User-Testing-Functionality](#user-testing-functionality)
+* [Bugs on Site](#bugs-on-site)
+* [Deployment](#deployment)
 * [Credits](#credits)
-* [Acknowledgements](#acknowledgements)
+  
 
 - - - 
 #### **Languages Used**
 
 *[HTML] (https://getbootstrap.com/docs/5.3/getting-started/introduction/) and (https://www.w3schools.com/bootstrap/bootstrap_get_started.asp)
 *[CSS3] and (https://getbootstrap.com/docs/3.4/css/) and (https://www.w3schools.com/css/default.asp)
+
+# User Experience (UX)
+## Project Goals
+### User Goals:
+* Find up to date and reliable information about the Pilates classes available
+* View the images and content information of class types on offer
+* Understand the benefits of practicing pilates
+* View times, days, location of classes
+* Ability to book classses
+
+### Site Owner Goals:
+* Provide user friendly essential information about the Pilates
+* Ensuring all images are viewable across all devices and screen sizes
+* Ensure all content is readable across all devices and screen sizes
+* Allow students to book classes easily, from the booking page
+* Allow students to understand benefits of Pilates
+
+### User Expectactions
+* An easy and intuitive navigation system across all pages within the site.
+* Links that work as expected
+* Every page accessible regardless across various devices and screen sizes
+* A simple booking form to book required class
+* Confirmation that the required class has been booked
+* Social media links available
 
 ### **User Stories**
 
@@ -72,24 +101,22 @@ The site has a simple structure made up of 4 page links from the Navigation bar:
 * Classes - more detailed information about the type of classes for students. 
 * Book Us - information about booking the band and a booking enquiry form. 
 * There is also 1 additional sub page-  A thank you confirmation page for when a user has submitted the form to book a class. 
-    The site has a navbar which remains fixed to the top of the page on desktop, tablet and mobile i this allows a user to access any page they need at any time and would be suitable for a returning visitor who knows exactly where they want to go. There is also a footer on every page with quick links to all pages,  the company pilates social media sites used and a booking button.
+    The site has a navigationbar which remains fixed to the top of the page on desktop, tablet and mobile i this allows a user to access any page they need at any time and would be suitable for a returning visitor who knows exactly where they want to go. There is also a footer on every page with quick links to all pages,  the company pilates social media sites used and a booking button.
  
 There is also another method of navigation, a preferred pathway through the site via ‘Quick Links’ located at the footer of all pages, enabling a first time user through the content. This is designed primarily for students who want to book a class their preferred running class.  
 
 #### **Colour** 
-  * The Colour palette is a mixture of dark blue for the header, white colour for the main body and light blue for the footer.The buttons consists of blue colours too 
+  * The Colour palette is a mixture of 3 colours. Dark blue for the header, white colour for the main body and light blue for the footer.The buttons consists of blue colours too.
  
- 
-
 
 ### **Typography** 
 
 Fonts were imported from [Google Fonts](https://fonts.google.com/). 
 
 I used the "Inter" Sans-Serif as the primary font for the main body and Mocando Cursive as the Secondary font for the headings. I found the Inter Sans-Serif font is a user-friendly, outstanding and clean typeface that contributes the design. I chose Mocando Cursive for my headings, because I love the way letters A, M and W stand out in each heading. I was inspired by using 'Mocando' Cursive when I completed the BoardWalk Games site using on the Code Institute learning management system module. https://jmodi16.github.io/boardwalk-games/ .
+Colour 'black' is used as the font for the text.
 
  
-
 ## **Features**
 
   
@@ -142,7 +169,7 @@ See below:
          
 All fields need to be completed, including the ‘Message, otherwise they will be presented with the following. See screenshot image below;
 
-![Book Now Section](documentation/incomplete-booking.png)
+![Book Now Section](documentation/booking-form-required.png)
 
 *  The booking tool allows you to use a password manager tool, which automatically prompts youwith a pop=up box to auto-fill your saved details requested. (Except the booking date, class type and message information). See screenshot below:
 
