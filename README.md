@@ -16,7 +16,7 @@ The website created for them is a four-page website enabling students and potent
 * [LanguagesUsed](#languagesused)
 * [UserStories](#userstories)
 * [Design](#design)
-  * [Colour]
+  * [Colour](#colour)
   * [Typography](#typography)
   * [Wireframes](#wireframes)
 * [Structure](#design)
@@ -24,13 +24,14 @@ The website created for them is a four-page website enabling students and potent
   * [Features For The Future](#features-for-the-future)
 * [Technologies Used](#technologies-used)
   * [ Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
-* [Testing](#testing)
-  * [User Experience](#user-experience-ux)
-  * [Accessibility](#accessibility)
-  * [Deployment](#deployment)
-  * [Run locally](#run-locally)
+* [Testing](#Ttesting)
+  * [Validator-Testing](#validator-testing)
+  * [Lighthouse-testing](#lighthouse-testing)
+  * [User-Testing-Functionality](#user-testing-functionality)
+* [Bugs on Site](#bugs-on-site)
+* [Deployment](#deployment)
 * [Credits](#credits)
-* [Acknowledgements](#acknowledgements)
+  
 
 - - - 
 #### **Languages Used**
@@ -142,7 +143,7 @@ See below:
          
 All fields need to be completed, including the ‘Message, otherwise they will be presented with the following. See screenshot image below;
 
-![Book Now Section](documentation/incomplete-booking.png)
+![Book Now Section](documentation/booking-form-required.png)
 
 *  The booking tool allows you to use a password manager tool, which automatically prompts youwith a pop=up box to auto-fill your saved details requested. (Except the booking date, class type and message information). See screenshot below:
 
