@@ -23,7 +23,7 @@ The website created for them is a four-page website enabling students and potent
   * [Colour](#colour)
   * [Typography](#typography)
   * [Wireframes](#wireframes)
-* [Structure](#design)
+* [Structure](#structure)
   * [Features](#features)
   * [Features For The Future](#features-for-the-future)
 * [Technologies Used](#technologies-used)
@@ -92,7 +92,7 @@ The website created for them is a four-page website enabling students and potent
 * [Contact Us Page](documentation/contact-wireframe.png)
 * [Book Now Page](documentation/booknow-wireframe.png)
   
-#### **Structure** 
+# **Design** 
  
 The structure of the site is informed by the scope, user and business goals as well as the principles of IXD (interaction design) to make sure I was conforming to user’s expectations and making everything as intuitive as I could. 
  
@@ -105,7 +105,7 @@ The site has a simple structure made up of 4 page links from the Navigation bar:
  
 There is also another method of navigation, a preferred pathway through the site via ‘Quick Links’ located at the footer of all pages, enabling a first time user through the content. This is designed primarily for students who want to book a class their preferred running class.  
 
-#### **Colour** 
+### **Colour** 
   * The Colour palette is a mixture of 3 colours. Dark blue for the header, white colour for the main body and light blue for the footer.The buttons consists of blue colours too.
  
 
@@ -117,7 +117,7 @@ I used the "Inter" Sans-Serif as the primary font for the main body and Mocando 
 Colour 'black' is used as the font for the text.
 
  
-## **Features**
+# **Features**
 
   
 ## **Home Page** 
@@ -141,7 +141,7 @@ Colour 'black' is used as the font for the text.
 
 * The second section will enable the user with the benefits of practicing pilates with the organization with three circular images and content on top. The content has three styled beneficial headings; Feel Movement, Feel Balanced and Feel Relaxed.See below:
 
-![Reasons section](documentation/reasons.png)
+![Reasons section](documentation/benefits.png)
 
 * The last section is the 'My Pilates Journey' section headed 'My Story;. It describes my personal journey and the reasons why I chose the Pilates theme close to my heart
        
@@ -188,10 +188,11 @@ All fields need to be completed, including the ‘Message, otherwise they will b
     
 ![Footer Section](documentation/footer.png)
 
-#### Error 404 page
+### Error 404 page
 A error 404 page was created in the event that the page failed to load due to a broken link, page removed, connectivity issue. Once the error 404 is loaded, it enables them to navigate back to the home page. | 
 
-  
+# Testing
+
 ## Validator Testing
 ### HTML
 * All four pages were tested using the [W3C Validator](https://validator.w3.org/).
@@ -206,7 +207,8 @@ A error 404 page was created in the event that the page failed to load due to a 
 * [CSS Check ](documentation/css-jigsaw-w3validator.png)
 
 ## Lighthouse Testing
-* Lighthouse testing was performed on all four pages. I was satisfied with the site results across all pages. I found the performance could have been better, which was impacted by images. I did try to compress and rename the images using Adobe Express Image Resizer, but that did not make much difference.
+* Lighthouse testing was performed on all four pages. I was satisfied with the site results across all pages. I found the performance could have been better, which was impacted by the largest content paint(LCP) DURATION I did try to compress and rename the images using Adobe Express Image Resizer, but that did not make much difference. Lighthouse testing was performed using [Google Chrome Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) extension.
+  
 * [Home Page](documentation/lighthouse-home.png)
 * [Classes Page](documentation/lighthouse-classes.png)
 * [Contact Us Page](documentation/lighthouse-contactus.png)
