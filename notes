@@ -338,3 +338,5 @@ padding-bottom: 20px;
       --highlight-color: #416a8e; /* blue */
       --highlight-color-light: #7a9fc2; /* light blue */
   }
+
+  <div class="row g-4">

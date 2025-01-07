@@ -43,7 +43,7 @@ h2 {
     color: var(--highlight-color);
 }
 
-/*Adjusted to raise title higher*/
+/*Adjusted to raise title higher for Phone and Email*/
 h2.Telephone, 
 h2.Email {
   margin-top: 0.25em;
