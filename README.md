@@ -13,7 +13,7 @@ The website created for them is a four-page website enabling students and potent
 [View the live project here.](https://jmodi16.github.io/Pilates/)
 # Contents
 
-* [LanguagesUsed](#languagesused)
+* [Languages Used](#languages-used)
 * [UserStories](#userstories)
 * [Design](#design)
   * [Colour](#colour)
