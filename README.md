@@ -24,8 +24,10 @@ The website created for them is a four-page website enabling students and potent
   * [Typography](#typography)
   * [Wireframes](#wireframes)
 * [Structure](#structure)
-  * [Features](#features)
-  * [Features For The Future](#features-for-the-future)
+  * [Home Page](#home-page)
+  * [Classes Page](#classes-page)
+  * [Contact Us Page](#contact-us-page)
+  * [Booking Page](#booking-page)
 * [Technologies Used](#technologies-used)
   * [ Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 * [Testing](#Testing)
@@ -176,7 +178,7 @@ All fields need to be completed, including the ‘Message, otherwise they will b
 
 ![Book Now Section](documentation/bookingform.png)
 
-*  Once, the class has been book the user receives a thank-you confirmation pop up window. This also enables the user to click pack to the home page,via a click of a button. See screenshot below.
+*  Once, the class has been book the user receives a thank-you confirmation pop up window. This also enables the user to click back to the home page,via a click of a button. See screenshot below.
 
 ![Book Now Section](documentation/thank-you.png)
 
@@ -295,12 +297,12 @@ It can take some time for the page to be fully deployed.
 
 
 # Credits
-1. Code Institute - It was a pure pleasure to learn HTML, CSS, use of the Bootstrap, and Gitpod with Code Institute. Participating in the course allows me to develop my frontend development skills. I partcularly enjoyed the carousel creation and booking form creation where knowledge was obtained from the Love running and BoardGames project.Their tutor support was good when they were available.
+1. Code Institute - It was a great pleasure to learn HTML, CSS, use of the Bootstrap, and Gitpod with Code Institute. Participating in the course allows me to develop my frontend development skills. I partcularly enjoyed the carousel creation and booking form creation where knowledge was obtained from the Love running and BoardGames project.Their tutor support was good when they were available.
 2. Manuel Perez Romero from Bristol City College for his support and lecturing.
-3. Gareth McGirr - my menthor, was helpful and provided me good ideas to progress with this project.
+3. Gareth McGirr - my mentor, was helpful and provided me good ideas to progress with this project.
 4. Slack community channels - Their support and advise was good.
 5. Images on the home page and classes page were downloaded from [FreePik](https://www.freepik.com) and images for my carousel were from [David Lloyd gym](https://www.davidlloyd.co.uk/pilates/)
-6. My Pilates class at my local sports centre who inspired me to generate this idea
+6. My Pilates class at my local sports centre who inspired me to generate this idea.
 
 
 
