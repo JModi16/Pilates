@@ -28,7 +28,7 @@ The website created for them is a four-page website enabling students and potent
   * [Features For The Future](#features-for-the-future)
 * [Technologies Used](#technologies-used)
   * [ Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
-* [Testing](#testing)
+* [Testing](#Testing)
   * [Validator-Testing](#validator-testing)
   * [Lighthouse-testing](#lighthouse-testing)
   * [User-Testing-Functionality](#user-testing-functionality)
@@ -101,7 +101,7 @@ The site has a simple structure made up of 4 page links from the Navigation bar:
 * Classes - more detailed information about the type of classes for students. 
 * Book Us - information about booking the band and a booking enquiry form. 
 * There is also 1 additional sub page-  A thank you confirmation page for when a user has submitted the form to book a class. 
-    The site has a navbar which remains fixed to the top of the page on desktop, tablet and mobile i this allows a user to access any page they need at any time and would be suitable for a returning visitor who knows exactly where they want to go. There is also a footer on every page with quick links to all pages,  the company pilates social media sites used and a booking button.
+    The site has a navigationbar which remains fixed to the top of the page on desktop, tablet and mobile i this allows a user to access any page they need at any time and would be suitable for a returning visitor who knows exactly where they want to go. There is also a footer on every page with quick links to all pages,  the company pilates social media sites used and a booking button.
  
 There is also another method of navigation, a preferred pathway through the site via ‘Quick Links’ located at the footer of all pages, enabling a first time user through the content. This is designed primarily for students who want to book a class their preferred running class.  
 
@@ -114,9 +114,9 @@ There is also another method of navigation, a preferred pathway through the site
 Fonts were imported from [Google Fonts](https://fonts.google.com/). 
 
 I used the "Inter" Sans-Serif as the primary font for the main body and Mocando Cursive as the Secondary font for the headings. I found the Inter Sans-Serif font is a user-friendly, outstanding and clean typeface that contributes the design. I chose Mocando Cursive for my headings, because I love the way letters A, M and W stand out in each heading. I was inspired by using 'Mocando' Cursive when I completed the BoardWalk Games site using on the Code Institute learning management system module. https://jmodi16.github.io/boardwalk-games/ .
+Colour 'black' is used as the font for the text.
 
  
-
 ## **Features**
 
   
