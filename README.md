@@ -85,12 +85,7 @@ The website created for them is a four-page website enabling students and potent
 #### **Design, Layout & Structure**  
 <br/>I chose to have a bright, clean, bold design mainly using blue for my Navigation bar and Footer and Form. I used(#004aad) which is bootstrap primary blue color with lots of visual content such as large eye-catching images.
 
-#### **Wireframes** 
-* Wireframes were designed using Balsamiq Wireframes software for four pages
-* [Home Page](documentation/home-wireframe.png)
-* [Classes Page](documentation/classes-wireframe.png)
-* [Contact Us Page](documentation/contact-wireframe.png)
-* [Book Now Page](documentation/booknow-wireframe.png)
+
   
 # **Design** 
  
@@ -116,8 +111,14 @@ Fonts were imported from [Google Fonts](https://fonts.google.com/).
 I used the "Inter" Sans-Serif as the primary font for the main body and Mocando Cursive as the Secondary font for the headings. I found the Inter Sans-Serif font is a user-friendly, outstanding and clean typeface that contributes the design. I chose Mocando Cursive for my headings, because I love the way letters A, M and W stand out in each heading. I was inspired by using 'Mocando' Cursive when I completed the BoardWalk Games site using on the Code Institute learning management system module. https://jmodi16.github.io/boardwalk-games/ .
 Colour 'black' is used as the font for the text.
 
+#### **Wireframes** 
+* Wireframes were designed using Balsamiq Wireframes software for four pages
+* [Home Page](documentation/home-wireframe.png)
+* [Classes Page](documentation/classes-wireframe.png)
+* [Contact Us Page](documentation/contact-wireframe.png)
+* [Book Now Page](documentation/booknow-wireframe.png)
  
-# **Features**
+# **Structure**
 
   
 ## **Home Page** 
