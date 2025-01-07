@@ -6,7 +6,7 @@
     --primary-font: "Inter", sans-serif;
     --secondary-font:"Macondo", cursive;
     --primary-color: #3a2620; /* dark brown */
-    --secondary-color: #aa9581; /* light brown */.text
+    --secondary-color: #aa9581; /* light brown */
     --highlight-color: #416a8e; /* blue */
     --highlight-color-light: #7a9fc2; /* light blue */
 }
@@ -118,7 +118,9 @@ section#My Pilates {
   margin-top:20px; /*Added margin top to seperate heading from responsive form*/
   text-align: left;
 }
-
+.text-centre {
+  text-align:center;
+}
 
 .py-5 {
   padding-top: 3rem !important;
