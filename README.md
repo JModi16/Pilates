@@ -57,8 +57,12 @@ The website created for them is a four-page website enabling students and potent
 <br/>I chose to have a bright, clean, bold design mainly using blue for my Navigation bar and Footer and Form. I used(#004aad) which is bootstrap primary blue color with lots of visual content such as large eye-catching images.
 
 #### **Wireframes** 
- 
-
+* Wireframes were designed using Balsamiq Wireframes software for four pages
+* [Home Page](documentation/home-wireframe.png)
+* [Classes Page](documentation/classes-wireframe.png)
+* [Contact Us Page](documentation/contact-wireframe.png)
+* [Book Now Page](documentation/booknow-wireframe.png)
+  
 #### **Structure** 
  
 The structure of the site is informed by the scope, user and business goals as well as the principles of IXD (interaction design) to make sure I was conforming to user’s expectations and making everything as intuitive as I could. 
@@ -67,9 +71,8 @@ The site has a simple structure made up of 4 page links from the Navigation bar:
 * Homepage – A  Carousel with four images of pilates classes 
 * Classes - more detailed information about the type of classes for students. 
 * Book Us - information about booking the band and a booking enquiry form. 
-* There is also 1 additional sub page; 
-    * A thank you confirmation page for when a user has submitted the form to book a class. 
-    The site has a navbar which remains fixed to the top of the page on desktop, tablet and mobile i this allows a user to access any page they need at any time and would be suitable for a returning visitor who knows exactly where they want to go. There is also a footer on every page with quick links to all pages,  the company pilates social media sites used and a booking button 
+* There is also 1 additional sub page-  A thank you confirmation page for when a user has submitted the form to book a class. 
+    The site has a navbar which remains fixed to the top of the page on desktop, tablet and mobile i this allows a user to access any page they need at any time and would be suitable for a returning visitor who knows exactly where they want to go. There is also a footer on every page with quick links to all pages,  the company pilates social media sites used and a booking button.
  
 There is also another method of navigation, a preferred pathway through the site via ‘Quick Links’ located at the footer of all pages, enabling a first time user through the content. This is designed primarily for students who want to book a class their preferred running class.  
 
@@ -83,7 +86,7 @@ There is also another method of navigation, a preferred pathway through the site
 
 Fonts were imported from [Google Fonts](https://fonts.google.com/). 
 
-I used the "Inter" Sans-Serif as the primary font and Mocando Cursive as the Secondary font as a backup in case the primary font failed. I found the Inter Sans-Serif font is a user-friendly, outstanding and clean typeface that contributes the design. I love the way letters A, M and W stand out in each heading. I was inspired by using the Inter Sans-Serif font when I completed the BoardWalk Games site using on the Code Institute learning management system module. https://jmodi16.github.io/boardwalk-games/ . I used the primary font "Inter" Sans-Serif for headings too.
+I used the "Inter" Sans-Serif as the primary font for the main body and Mocando Cursive as the Secondary font for the headings. I found the Inter Sans-Serif font is a user-friendly, outstanding and clean typeface that contributes the design. I chose Mocando Cursive for my headings, because I love the way letters A, M and W stand out in each heading. I was inspired by using 'Mocando' Cursive when I completed the BoardWalk Games site using on the Code Institute learning management system module. https://jmodi16.github.io/boardwalk-games/ .
 
  
 
@@ -157,8 +160,8 @@ All fields need to be completed, including the ‘Message, otherwise they will b
 * The footer is valuable to the he user back to the user encouraging them to keep connected via social media and gives easy access to interesting information about what is happening at Canons Pilates. 
     
 ![Footer Section](documentation/footer.png)
-/
-## **Error 404 page**
+
+#### Error 404 page
 A error 404 page was created in the event that the page failed to load due to a broken link, page removed, connectivity issue. Once the error 404 is loaded, it enables them to navigate back to the home page. | 
 
   
@@ -170,13 +173,13 @@ A error 404 page was created in the event that the page failed to load due to a 
 * [Classes Page](documentation/classes-w3validator.png)
 * [Contact Us Page](documentation/contact-w3validator.png)
 * [Book Now Page](documentation/booking-w3validator.png)
-* The success.html page providing conformation when a class iis booked, was free from errors and warnings
+* The success.html page providing confirmation when a class is booked, was free from errors and warnings.
 ### CSS
-* [CSS Validator](https://jigsaw.w3.org/css-validator/) was used to test the CSS, and shows no errors.
+* [CSS Validator](https://jigsaw.w3.org/css-validator/) was used to test the CSS, and shows no errors. I encountered a major problem with css validation failing due to class .btn:hover not closing. When closed with a curly bracket }, caused a major appearance problem with the websites borders and colours and changed the appearance drastically.I contacted tutor support, they manage to get the css to pass, by making an adjustment in the css. It wasnt clear how, but related to the .container class. However, after checking my site I found my headings were decreased in size, the font-family of headings had changed to the primary font. I changed the section headings back to secondary font 'Mocando' Cursive, changed the .display-6 class to 40px and centreed div-class col-12 from left to centre.
 * [CSS Check ](documentation/css-jigsaw-w3validator.png)
 
 ## Lighthouse Testing
-* Lighthouse testing was performed on all four pages
+* Lighthouse testing was performed on all four pages. I was satisfied with the site results across all pages. I found the performance could have been better, which was impacted by images. I did try to compress and rename the images using Adobe Express Image Resizer, but that did not make much difference.
 * [Home Page](documentation/lighthouse-home.png)
 * [Classes Page](documentation/lighthouse-classes.png)
 * [Contact Us Page](documentation/lighthouse-contactus.png)
