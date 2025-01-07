@@ -1,3 +1,5 @@
+
+
 # Pilates
 /*part of carasoul-section removed from index.html*/
 class="container section"> 
@@ -325,4 +327,14 @@ padding-bottom: 20px;
   
    .display-6 {
     font-size: 20px;
+  }
+
+  /* CSS Variables */
+  :root {
+      --primary-font: "Inter", sans-serif;
+      --secondary-font: "Macondo", cursive;
+      --primary-color: #3a2620; /* dark brown */
+      --secondary-color: #aa9581; /* light brown */
+      --highlight-color: #416a8e; /* blue */
+      --highlight-color-light: #7a9fc2; /* light blue */
   }
