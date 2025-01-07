@@ -14,7 +14,11 @@ The website created for them is a four-page website enabling students and potent
 # Contents
 
 * [Languages Used](#languages-used)
-* [UserStories](#userstories)
+* [User Experience (UX)](#user-experience-ux)
+  * [Project Goals](#project-goals)
+  * [User Goals](#user-goals)
+  * [Site Owner Goals](#site-owner-goals)
+  * [User Stories](#user-stories)
 * [Design](#design)
   * [Colour](#colour)
   * [Typography](#typography)
@@ -38,6 +42,30 @@ The website created for them is a four-page website enabling students and potent
 
 *[HTML] (https://getbootstrap.com/docs/5.3/getting-started/introduction/) and (https://www.w3schools.com/bootstrap/bootstrap_get_started.asp)
 *[CSS3] and (https://getbootstrap.com/docs/3.4/css/) and (https://www.w3schools.com/css/default.asp)
+
+# User Experience (UX)
+## Project Goals
+### User Goals:
+* Find up to date and reliable information about the Pilates classes available
+* View the images and content information of class types on offer
+* Understand the benefits of practicing pilates
+* View times, days, location of classes
+* Ability to book classses
+
+### Site Owner Goals:
+* Provide user friendly essential information about the Pilates
+* Ensuring all images are viewable across all devices and screen sizes
+* Ensure all content is readable across all devices and screen sizes
+* Allow students to book classes easily, from the booking page
+* Allow students to understand benefits of Pilates
+
+### User Expectactions
+* An easy and intuitive navigation system across all pages within the site.
+* Links that work as expected
+* Every page accessible regardless across various devices and screen sizes
+* A simple booking form to book required class
+* Confirmation that the required class has been booked
+* Social media links available
 
 ### **User Stories**
 
