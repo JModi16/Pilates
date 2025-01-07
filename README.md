@@ -11,12 +11,12 @@ The website created for them is a four-page website enabling students and potent
 ![mockup device generator](documentation/device-mockup-generator.png)
 
 [View the live project here.](https://jmodi16.github.io/Pilates/)
-
-## Contents
+# Contents
 
 * [LanguagesUsed](#languagesused)
 * [UserStories](#userstories)
 * [Design](#design)
+  * [Colour]
   * [Typography](#typography)
   * [Wireframes](#wireframes)
 * [Structure](#design)
