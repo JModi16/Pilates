@@ -6,7 +6,7 @@
 
 Canons Pilates is a fictional Pilates Centre located in Edgware, North West London, UK. The current process in the way they are looking to place bookings for classes needs to be completely changed and adjusted with the use of a functional and user-friendly website.
 
-The website created for them is a four-page website enabling students and potential students with the passsinate interest of taking up Pilates. Benefits Pilates will bring to their physical and mental health, well being and day to lives. Easily navigate to the type of classes available, when the classes are available and the cost of each class. The site provides its main objective with the ability to book a class online and receive a confirmation message.
+The website created for them is a four-page website enabling students and potential students with the passsinate interest of taking up Pilates. Benefits Pilates will bring to their physical and mental health, well being and day to lives. The site enables you to easily navigate to the type of classes available and with the class information, with particular focus to group and chair classes due to thericurrent demand. The site provides its main objective with the ability to book a class online and receive a confirmation message.
 
 ![mockup device generator](documentation/device-mockup-generator.png)
 
@@ -106,10 +106,8 @@ The site has a simple structure made up of 4 page links from the Navigation bar:
 There is also another method of navigation, a preferred pathway through the site via ‘Quick Links’ located at the footer of all pages, enabling a first time user through the content. This is designed primarily for students who want to book a class their preferred running class.  
 
 #### **Colour** 
-  * The Colour palette is a mixture of dark blue for the header, white colour for the main body and light blue for the footer.The buttons consists of blue colours too 
+  * The Colour palette is a mixture of 3 colours. Dark blue for the header, white colour for the main body and light blue for the footer.The buttons consists of blue colours too.
  
- 
-
 
 ### **Typography** 
 
