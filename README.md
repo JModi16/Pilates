@@ -28,7 +28,7 @@ The website created for them is a four-page website enabling students and potent
   * [Features For The Future](#features-for-the-future)
 * [Technologies Used](#technologies-used)
   * [ Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
-* [Testing](#Ttesting)
+* [Testing](#testing)
   * [Validator-Testing](#validator-testing)
   * [Lighthouse-testing](#lighthouse-testing)
   * [User-Testing-Functionality](#user-testing-functionality)
